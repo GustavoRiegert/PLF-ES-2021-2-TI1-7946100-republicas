@@ -11,11 +11,7 @@ Histórias de usuários
  A partir das entrevistas de cada persona abaixo e suas histórias podemos ter como limite o que irá auxiliar no projeto. Focamos as entrevistas naquelas pessoas que são estudantes/universitários que moram ou pretendem morar em repúblicas. Para ter um melhor foco do projeto visto que eles são o principal público afetado 
 
 
-PERSONAS 
-
-QUERO/DESEJO (O QUE) 
-
-PARA (PORQUÊ) 
+PERSONAS              |       QUERO/DESEJO (O QUE)     |          PARA (PORQUÊ) 
 
 Lorene Freitas 
 
