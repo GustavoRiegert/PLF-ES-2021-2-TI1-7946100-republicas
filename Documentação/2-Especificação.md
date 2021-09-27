@@ -4,6 +4,49 @@ Tendo como objetivo principal a criação de um projeto que auxilie à busca por
 
 #PERSONAS
 
+PERSONA 1
+
+Nome: Lorene Freitas
+Idade: 18
+Hobby: Leitura
+Trabalho: Estudante
+Personalidade: Extrovertida, Carismática, Brincalhona
+Sonhos: Passar em medicina na federal
+Objetos e lugares: Celular e Computador. Uma alta frequência no uso do celular e moderada quanto ao computador, usado para estudo e entretenimento.
+Objetivos chaves: Necessidade em encontrar uma república com custo moderado/baixo para que possa continuar a seguir seu sonho de ir pra faculdade
+Como devemos tratá-la: Local arejado, com convívio intenso de pessoas, para que possa criar laços de amizades.
+Nunca devemos: Fotos com má qualidade, que não permita o usuário ver bem qual o local que está entrando, omissão de informações.
+
+
+PERSONA 2
+
+
+Nome: Marcos Gabriel
+Idade: 23
+Hobby: Praticar esportes
+Trabalho: Professor
+Personalidade: Extrovertido, engraçado e animado
+Sonhos: Criar algo que ajude a comunidade.
+Objetos e lugares: Celular: Usa com mais frequência para se comunicar  e se manter informado. Notebook: Usa para entretenimento e para trabalhar.            
+Objetivos chaves: Encontrar um lugar para morar enquanto cursa a faculdade
+Como devemos tratá-la: Mostrar todas as informações necessárias para que tenham mais informações sobre o local e das características do local.
+Nunca devemos: Não deixar dar falsas informações ou deixar de entregar todas as informações necessárias. 
+
+
+PERSONA 3
+
+
+Nome:  Laura Andrade
+Idade: 19
+Hobby: Passear com cachorrinho.
+Trabalho: Estudante.
+Personalidade: Divertida, carismática porém sarcástica.
+Sonhos: Intercâmbio em harvard
+Objetos e lugares: Celular, notebook, desktop
+Objetivos chaves: Encontrar um lugar tranquilo para morar, ter informações sobre os arredores sobre o local, bom custo/benefício, proximidade com a universidade.
+Como devemos tratá-la: Mostrar objetivos claros e sucintos, informações prioritárias e avaliações em destaque. 
+Nunca devemos: Omitir qualquer tipo de informação, pouco esclarecimento
+
 #HÍSTORIAS DE USUÁRIOS
 A partir das entrevistas de cada persona abaixo e suas histórias podemos ter como limite o que irá auxiliar no projeto. Focamos as entrevistas naquelas pessoas que são estudantes/universitários que moram ou pretendem morar em repúblicas. Para ter um melhor foco do projeto visto que eles são o principal público afetado 
 
