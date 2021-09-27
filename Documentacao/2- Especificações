@@ -95,6 +95,6 @@ RNF-07 | O chat deverá ser de forma simples e objetiva sem muitas informações
 RNF-08 | Ao clicar em meus anúncios o anunciante será redirecionado para uma página a qual poderá excluir seu anúncio e ver editá-lo | MÉDIA
 
 ##RESTRIÇÕES
-O site deverá ser criado até dezembro de 2021 
-
-Sem o uso de back-end 
+ID| RESTRIÇÃO
+|01|O site deverá ser criado até dezembro de 2021 
+|02|Sem o uso de back-end 
