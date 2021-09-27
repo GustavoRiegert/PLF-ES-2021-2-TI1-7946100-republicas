@@ -40,4 +40,16 @@ RF-007 - O site deve permitir que o anunciante possa editar o anúncio da repúb
 RF-008 - Ao clicar no anúncio o usuário poderá ver mais detalhes dos imóveis e quantos hóspedes residem nele, além de comentários de ex-moradores e um local para ser redirecionado para o chat - ALTA
 RF-009 - Ao criar o anúncio o anunciante poderá ver os comentários que são feitos pelos usuários e editar os detalhes descritos por ele sobre a república de alunos como: As fotos publicadas sobre o local, o valor pedido, o mapa da localização e as comodidades do local. - BAIXA
 
+##NÃO FUNCIONAIS
+ID | DESCRIÇÃO DO REQUISITO | PRIORIDADE 
+RNF-01 | O sistema do site deve registrar quando a república estiver com sua lotação máxima e aparecer indisponível quando as pessoas estiverem pesquisando para facilitar a busca. | ALTA
+RNF-02 | O mapa da página de entrada deverá aparecer no local as repúblicas próximas ao que o usuário colocar sua cidade e faculdade | MÉDIA
+RNF-03 | A partir da filtragem de itens deverá aparecer apenas os imóveis com prioridade das comodidades selecionadas | MÉDIA
+RNF-04 | A parte de cadastro deverá ser de forma simplificada podendo criar um e-mail e senha novos a partir do site ou para facilitar sincronizar com as contas do Google ou Facebook. | ALTA
+RNF-05 | A parte de login deverá ser sincronizada com a conta do Google ou Facebook, ou a pessoa poderá logar na conta criada na parte do cadastre-se | ALTA
+RNF-06 | parte para criar um anúncio deverá ter opções para o dono de república especificar o imóvel com as comodidades e detalhes além de poder adicionar fotos do mesmo | ALTA
+RNF-07 | O chat deverá ser de forma simples e objetiva sem muitas informações para os usuários, apenas aquilo necessário | BAIXA
+RNF-08 | Ao clicar em meus anúncios o anunciante será redirecionado para uma página a qual poderá excluir seu anúncio e ver editá-lo | MÉDIA
+
+##RESTRIÇÕES
 
