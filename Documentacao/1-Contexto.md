@@ -1,10 +1,7 @@
 # Introdução
+Venho para lhe proporcionar uma pagina que vai revolucionar a forma que podemos procurar republicas para o conforto do universitário, que você tenha a sua aventura mas com conforto.O objetivo do fazer um site voltado para os universitário. Em busca de trazer é claro conforto, funcionalidade, eficácia em um só produto. Voltado diretamente para o universitário. 
 
-## Problema
-> Trabalho introdução 
-
-Venho para lhe proporcionar uma pagina que vai revolucionar a forma que podemos procurar republicas para o conforto do universitário, que você tenha a sua aventura mas com conforto.O objetivo do fazer um site voltado para os universitário. Em busca de trazer é claro conforto, funcionalidade, eficácia em um só produto. Voltado diretamente para o universitário.  
-
+## Problema 
 O Problema que quero solucionar, é de fato, trazer comodidade quando o universitário quer fazer um curso especifico, ou um intercambio nacional ou internacional. Conforto ao trazer de forma rápida as universidade de seu curso, custo, se é longe ou perto, ou seja o melhor custo beneficio para qualquer necessidade  
 
 Então trago a vocês uma justificativa para o seu problema, para o que esta irritando o universitário, quer simplesmente, viver uma aventura ou se simplesmente é uma necessidade, nos temos a solução para uma universidade próxima e com o conforto que merece  
@@ -23,14 +20,9 @@ O meu publico alvo é simplimente os universitário, personas são pessoa que es
 
 ## Objetivos
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivo central, tenho que trazer uma solução para aqueles que aquerem confrto sem abrir mao de uma aventura, posso afirmar que os republicanos, vao se sentir acolhidos em uma republica, seja ela de qualquer valor. Voce pode pesquisar uma republica no interior de São Paulo ou no centro de Santa Catarina, com o melhor preço, para qualquer exigência 
+
+O meu publico alvo é simplimente os universitário, personas são pessoa que estão apenas em busca de pesquisar, para esse publico eu posso mostrar uma segurança me meu site para seus filhos tenha um conforto em uma foto.
 
 ## Justificativa
 
