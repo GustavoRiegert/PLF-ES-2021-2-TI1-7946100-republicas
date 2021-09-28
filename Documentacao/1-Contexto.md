@@ -1,21 +1,25 @@
 # Introdução
 
 ## Problema
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+> Trabalho introdução 
+
+Venho para lhe proporcionar uma pagina que vai revolucionar a forma que podemos procurar republicas para o conforto do universitário, que você tenha a sua aventura mas com conforto.O objetivo do fazer um site voltado para os universitário. Em busca de trazer é claro conforto, funcionalidade, eficácia em um só produto. Voltado diretamente para o universitário.  
+
+O Problema que quero solucionar, é de fato, trazer comodidade quando o universitário quer fazer um curso especifico, ou um intercambio nacional ou internacional. Conforto ao trazer de forma rápida as universidade de seu curso, custo, se é longe ou perto, ou seja o melhor custo beneficio para qualquer necessidade  
+
+Então trago a vocês uma justificativa para o seu problema, para o que esta irritando o universitário, quer simplesmente, viver uma aventura ou se simplesmente é uma necessidade, nos temos a solução para uma universidade próxima e com o conforto que merece  
+
+Em meio ao que propoio é que um republicano, em sua aventura, posa escolher  algo que lhe satisfaça, é que tenha ao mesmo tempo, um lugar, possa descansar, tenho como um lugar melhor, que esse site.  
+
+Podemos ver que mediante ao que estou oferecendo, como qualquer solução, tem usa duvidas e suas suposições, tenho como certeza que a forma de busca é bem dinâmica e pode trazer, resultados bem inesperados, ou seja de muita gratificação. Minhas duvidas é em relação a graduação a distancia, uma vez que tenho um grande publico que prefere ficar em casa ao invés de ir para escola, mas mesmo assim as republicas, além disso oferecem integração entre os outros estudantes, conhecimento cultural aonde muito das vezes o universitário terá que aprender a viver sozinho, se você sabe o que quer, é aqui que vai ter a sua solução. 
+
+Tenho como uma ideia a agilidade de que o universitário pode chegar na sua sede do curso, como para fazer uma prova ou algo presencial de urgência, tenho como o objetivo ajudar e trazer um resultado significativo para as pessoas que querem uma republica ao seu gosto e ao seu custo, uma coisa que caiba no bolso de um universitário, pois sabemos que economia para esse publico é uma coisa essencial. 
+
+Como objetivo central, tenho que trazer uma solução para aqueles que aquerem confrto sem abrir mao de uma aventura, posso afirmar que os republicanos, vao se sentir acolhidos em uma republica, seja ela de qualquer valor. Voce pode pesquisar uma republica no interior de São Paulo ou no centro de Santa Catarina, com o melhor preço, para qualquer exigência 
+
+O meu publico alvo é simplimente os universitário, personas são pessoa que estão apenas em busca de pesquisar, para esse publico eu posso mostrar uma segurança me meu site para seus filhos tenha um conforto em uma foto. 
+
+ 
 
 ## Objetivos
 
