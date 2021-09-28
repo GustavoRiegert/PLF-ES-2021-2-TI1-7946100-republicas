@@ -1,6 +1,5 @@
 # Projeto de Interface
 
-
 ## Fluxo do usuário
 - Disponível no link: [Fluxo do usuário](./fluxo-do-usuario.md)
 
