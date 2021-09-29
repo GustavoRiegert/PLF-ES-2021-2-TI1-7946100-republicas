@@ -1,50 +1,40 @@
 # Gerenciamento de Projeto
 
-> Descreva aqui a metodologia de trabalho do grupo para atacar o
-> problema.
+O grupo trabalha com metodologia ágil e scrum.
 
 ## Divisão de Papéis
 
-> Apresente a divisão de papéis entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+Divisão de papéis entre os membros do grupo:
+
+- `Product Owner`: Gustavo Henrique Dos Santos Riegert
+- `Scrum Master`: Aline Cristina Braz De Oliveira
+- `Equipe`:
+    - Aline Cristina Braz De Oliveira
+    - Daniel De Alcântara Xavier
+    - Gustavo Henrique Dos Santos Riegert
+    - Guilherme Felipe Costa Rodrigues
+    - Yuri Lucas Silva Ferreira
 
 ## Processo
 
-> Coloque  informações sobre detalhes da implementação do Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando os Quadros de Projeto no GitHub estruturado com as seguintes colunas:
+
+- `Recursos`: esta lista mantém template de tarefas recorrentes com as configurações padronizadas que todos devem seguir.
+- `Backlog`: recebe as tarefas a serem trabalhadas e representa o Product Backlog.
+- `To Do`: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+- `Doing`: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+- `Test`: Checagem de Qualidade. Quando as tarefas são concluídas, eles são movidas para o “CQ”.
+- `Done`: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+- `Locked`: Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa.
 
 ## Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de diagramação
+- Editor de código: Visual Studio Code.
+- Ferramenta de comunicação: Microsoft Teams
+- Ferramenta de diagramação: Figma
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-> Liste quais ferramentas foram empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [![Slack](images/slack.jpg)](https://slack.com/)
-> - [![Trello](images/trello.png)](https://trello.com/)
-> 
-> - [![Microsof Project](images/project.png)](https://products.office.com/pt-br/project/project-and-portfolio-management-software)
-> - [![Redbooth](images/redbooth.png)](https://redbooth.com/)
+O editor de código foi escolhido porque ele possui uma integração com o sistema de versão.
+A ferramenta de comunicação utilizada é utilizada por todos os envolvidos no projeto, por isso foi escolhida.
+Por fim, para criar diagramas utilizamos o Figma pois há diversas integrações e formatos de exportação.
