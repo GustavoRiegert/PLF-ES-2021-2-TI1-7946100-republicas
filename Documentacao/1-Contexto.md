@@ -1,28 +1,19 @@
 # Introdução
-Venho para lhe proporcionar uma pagina que vai revolucionar a forma que podemos procurar republicas para o conforto do universitário, que você tenha a sua aventura mas com conforto.O objetivo do fazer um site voltado para os universitário. Em busca de trazer é claro conforto, funcionalidade, eficácia em um só produto. Voltado diretamente para o universitário. 
+Venho para lhe proporcionar uma página que vá revolucionar a forma que podemos encontrar republicas. O site trará de uma forma prática e objetiva o conteúdo que o estudante procura, podendo filtrar a partir de seus interesses, trazendo conforto, funcionalidade e eficácia.   
 
 ## Problema 
-O Problema que quero solucionar, é de fato, trazer comodidade quando o universitário quer fazer um curso especifico, ou um intercambio nacional ou internacional. Conforto ao trazer de forma rápida as universidade de seu curso, custo, se é longe ou perto, ou seja o melhor custo beneficio para qualquer necessidade  
-
-Então trago a vocês uma justificativa para o seu problema, para o que esta irritando o universitário, quer simplesmente, viver uma aventura ou se simplesmente é uma necessidade, nos temos a solução para uma universidade próxima e com o conforto que merece  
-
-Em meio ao que propoio é que um republicano, em sua aventura, posa escolher  algo que lhe satisfaça, é que tenha ao mesmo tempo, um lugar, possa descansar, tenho como um lugar melhor, que esse site.  
-
-Podemos ver que mediante ao que estou oferecendo, como qualquer solução, tem usa duvidas e suas suposições, tenho como certeza que a forma de busca é bem dinâmica e pode trazer, resultados bem inesperados, ou seja de muita gratificação. Minhas duvidas é em relação a graduação a distancia, uma vez que tenho um grande publico que prefere ficar em casa ao invés de ir para escola, mas mesmo assim as republicas, além disso oferecem integração entre os outros estudantes, conhecimento cultural aonde muito das vezes o universitário terá que aprender a viver sozinho, se você sabe o que quer, é aqui que vai ter a sua solução. 
-
-Tenho como uma ideia a agilidade de que o universitário pode chegar na sua sede do curso, como para fazer uma prova ou algo presencial de urgência, tenho como o objetivo ajudar e trazer um resultado significativo para as pessoas que querem uma republica ao seu gosto e ao seu custo, uma coisa que caiba no bolso de um universitário, pois sabemos que economia para esse publico é uma coisa essencial. 
-
-Como objetivo central, tenho que trazer uma solução para aqueles que aquerem confrto sem abrir mao de uma aventura, posso afirmar que os republicanos, vao se sentir acolhidos em uma republica, seja ela de qualquer valor. Voce pode pesquisar uma republica no interior de São Paulo ou no centro de Santa Catarina, com o melhor preço, para qualquer exigência 
-
-O meu publico alvo é simplimente os universitário, personas são pessoa que estão apenas em busca de pesquisar, para esse publico eu posso mostrar uma segurança me meu site para seus filhos tenha um conforto em uma foto. 
-
- 
+O Problema a ser solucionado é a falta de praticidade quando o universitário quer fazer um curso, e não conhece de forma ampla o novo local de moradia. Além da falta citada acima, o estudante também passa pela escassez de informações devido ao pouco detalhamento dos sites hoje ativos. Devido a esse fator o universitário acaba por procurar outra solução que às vezes acaba não sendo a mais viável.  
 
 ## Objetivos
+Como objetivo central, trago uma solução para aqueles que buscam mais conforto sem abrir mão de uma aventura. O principal objetivo de nosso site é trazer de forma prática e fácil, um site que além do estudante ter a opção de escolher uma república, ele poderá também filtrar o imóvel através de alguns filtros pessoais como:  
 
-Como objetivo central, tenho que trazer uma solução para aqueles que aquerem confrto sem abrir mao de uma aventura, posso afirmar que os republicanos, vao se sentir acolhidos em uma republica, seja ela de qualquer valor. Voce pode pesquisar uma republica no interior de São Paulo ou no centro de Santa Catarina, com o melhor preço, para qualquer exigência 
+- Procurar republicas as quais moram somente homens ou mulheres 
 
-O meu publico alvo é simplimente os universitário, personas são pessoa que estão apenas em busca de pesquisar, para esse publico eu posso mostrar uma segurança me meu site para seus filhos tenha um conforto em uma foto.
+- Moradores com os mesmos gostos e personalidades parecidas as suas tornando o ambiente mais amigável e de melhor convivência 
+
+- E a quantidade de comodidades oferecidas pelo locador 
+
+Além de facilitar o contato com os donos de repúblicas através de um chat, tornando tudo mais prático. 
 
 ## Justificativa
 
