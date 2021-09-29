@@ -5,7 +5,7 @@ Venho para lhe proporcionar uma página que vá revolucionar a forma que podemos
 O Problema a ser solucionado é a falta de praticidade quando o universitário quer fazer um curso, e não conhece de forma ampla o novo local de moradia. Além da falta citada acima, o estudante também passa pela escassez de informações devido ao pouco detalhamento dos sites hoje ativos. Devido a esse fator o universitário acaba por procurar outra solução que às vezes acaba não sendo a mais viável.  
 
 ## Objetivos
-Como objetivo central, trago uma solução para aqueles que buscam mais conforto sem abrir mão de uma aventura. O principal objetivo de nosso site é trazer de forma prática e fácil, um site que além do estudante ter a opção de escolher uma república, ele poderá também filtrar o imóvel através de alguns filtros pessoais como:  
+Como objetivo central, trago uma solução para aqueles que buscam mais conforto sem abrir mão de uma aventura. O principal objetivo de nosso site é trazer de forma prática e fácil, um site que além do estudante ter a opção de escolher uma república, ele poderá escolher sua moradia baseado em um mapa de proximidade de sua faculdade,e também filtrar o imóvel através de alguns filtros pessoais como:  
 
 - Procurar republicas as quais moram somente homens ou mulheres 
 
@@ -17,17 +17,7 @@ Além de facilitar o contato com os donos de repúblicas através de um chat, to
 
 ## Justificativa
 
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+
 
 ## Público-Alvo
 
