@@ -1,10 +1,10 @@
-2. ESPECIFICAÇÕES DO PROJETO 
+#ESPECIFICAÇÕES DO PROJETO
 
 Tendo como objetivo principal a criação de um projeto que auxilie à busca por repúblicas, para seu melhor desempenho e adequação, buscamos as vítimas de tal problema e elaboramos uma entrevista verbal com alguns usuários e não verbal com a maioria deles, por meio de um formulário. A partir disso tornou-se possível o levantamento de dados e histórias de personas podendo dessa forma pegar suas “dores” e otimizá-las, de forma à tornar o projeto mais sucinto e melhorando a experiência de seu usuário.
 
-#PERSONAS
+##PERSONAS
 
-PERSONA 1
+-PERSONA 1
 
 Nome: Lorene Freitas
 Idade: 18
@@ -18,7 +18,7 @@ Como devemos tratá-la: Local arejado, com convívio intenso de pessoas, para qu
 Nunca devemos: Fotos com má qualidade, que não permita o usuário ver bem qual o local que está entrando, omissão de informações.
 
 
-PERSONA 2
+-PERSONA 2
 
 
 Nome: Marcos Gabriel
@@ -33,7 +33,7 @@ Como devemos tratá-la: Mostrar todas as informações necessárias para que ten
 Nunca devemos: Não deixar dar falsas informações ou deixar de entregar todas as informações necessárias. 
 
 
-PERSONA 3
+-PERSONA 3
 
 
 Nome:  Laura Andrade
@@ -50,7 +50,7 @@ Nunca devemos: Omitir qualquer tipo de informação, pouco esclarecimento
 #HÍSTORIAS DE USUÁRIOS
 A partir das entrevistas de cada persona abaixo e suas histórias podemos ter como limite o que irá auxiliar no projeto. Focamos as entrevistas naquelas pessoas que são estudantes/universitários que moram ou pretendem morar em repúblicas. Para ter um melhor foco do projeto visto que eles são o principal público afetado 
 
-PERSONAS|QUERO/DESEJO (O QUE)|PARA (PORQUÊ) 
+#PERSONAS|QUERO/DESEJO (O QUE)|PARA (PORQUÊ) 
 Lorene Freitas ----- Preço e fotos que mostrem completamente o local ----- Criar um filtro baseado na renda da pessoa que pretende locar, e criar um maior entendimento da pessoa de como será a casa por completo 
 
 Letícia Alves ----- Localização, Proximidade das Universidades, Perfil de Moradores, Valores e as Regras. ----- Melhor filtro a partir de uma localização baseada no local da faculdade para usuários que não conhecem bem os bairros próximos a faculdade 
