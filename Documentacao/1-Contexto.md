@@ -6,33 +6,27 @@
 
 ## Objetivos
 >Como objetivo central, trago uma solução para aqueles que buscam mais conforto sem abrir mão de uma aventura. O principal objetivo de nosso site é trazer de forma prática e >fácil, um site que além do estudante ter a opção de escolher uma república, ele poderá escolher sua moradia baseado em um mapa de proximidade de sua faculdade,e também filtrar >o imóvel através de alguns filtros pessoais como:  
-
+>
 >- Procurar republicas as quais moram somente homens ou mulheres 
-
+>
 >- Moradores com os mesmos gostos e personalidades parecidas as suas tornando o ambiente mais amigável e de melhor convivência 
-
+>
 >- E a quantidade de comodidades oferecidas pelo locador 
-
+>
 >Além de facilitar o contato com os donos de repúblicas através de um chat, tornando tudo mais prático. 
 
 ## Justificativa
-
-
+>Como justificativa aos problemas citados acima trago de forma simples uma breve explicação dos problemas que os universitários passam. Muitos por não conheceram ainda a cidade >de destino como bairros próximos e pontos de comércio, as pessoas acabam buscando uma moradia em um local menos adequado a sua situação. Por isso acabam ficando longe de sua >faculdade pela desinformação ou em um local sem muitos pontos de comércios e ônibus para sua locomoção, além de não terem tantas informações sobre o local de moradia e as >pessoas que residem nele, como:  
+>
+>-Com quantas pessoas vivem na casa de destino 
+>
+>-Se possuem pessoas fumantes no local 
+>
+>-Se há garagem 
+>
+>-Se as pessoas são abertas ao público LGBTQIA+ 
 
 ## Público-Alvo
+>Como atualmente a maioria das pessoas que buscam repúblicas são estudantes, nosso projeto é voltado para essa parcela da população. Como calouros que vem de outra cidade para a >faculdade que passaram e até mesmo calouros que moram na mesma cidade, porém longe de sua universidade de destino. Ou até veteranos que buscam uma nova experiência de moradia. 
 
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
  
