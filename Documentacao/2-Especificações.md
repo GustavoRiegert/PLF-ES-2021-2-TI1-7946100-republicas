@@ -97,4 +97,6 @@ RNF-08 | Ao clicar em meus anúncios o anunciante será redirecionado para uma p
 ##RESTRIÇÕES
 ID| RESTRIÇÃO
 |01|O site deverá ser criado até dezembro de 2021 
-|02|Sem o uso de back-end 
+|02|Sem o uso de back-end
+|03|Não usará um ranking de repúblicas
+|04|Não criara contrato entre anunciante e visitante
