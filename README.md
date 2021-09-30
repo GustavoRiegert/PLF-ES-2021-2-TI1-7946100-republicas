@@ -1,19 +1,21 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=454204&assignment_repo_type=GroupAssignmentRepo)
-# Nome do projeto
+# Repúblicas de alunos 
 
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+O projeto possui como objetivo principal a criação de um site para ajudar estudantes a encontrarem suas repúblicas
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Aline Cristina
+* Daniel Xavier
+* Guilherme Costa
+* Gustavo Riegert
+* Yuri Silva
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* Rommel Carneiro
+* Simone Alves
+* Nathalia Assis
 
 ## Instruções de utilização
 
