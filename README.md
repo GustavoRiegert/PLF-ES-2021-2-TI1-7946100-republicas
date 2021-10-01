@@ -1,21 +1,21 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=454204&assignment_repo_type=GroupAssignmentRepo)
 # Repúblicas de alunos 
 
-O projeto possui como objetivo principal a criação de um site para ajudar estudantes a encontrarem suas repúblicas
+O objetivo do Projeto é disponibilizar uma aplicação web para estudantes em busca de repúblicas. A busca será orientada pelas repúblicas disponíveis em relação a distância do local onde estudam.
 
 ## Alunos integrantes da equipe
 
-* Aline Cristina
-* Daniel Xavier
-* Guilherme Costa
-* Gustavo Riegert
-* Yuri Silva
+* Aline Cristina Braz De Oliveira
+* Daniel De Alcântara Xavier
+* Guilherme Felipe Costa Rodrigues
+* Gustavo Henrique Dos Santos Riegert
+* Yuri Lucas Silva Ferreira
 
 ## Professores responsáveis
 
-* Rommel Carneiro
-* Simone Alves
-* Nathalia Assis
+* Rommel Vieira Carneiro
+* Simone Alves Nogueira
+* Nathalia Assis Valentim
 
 ## Instruções de utilização
 
