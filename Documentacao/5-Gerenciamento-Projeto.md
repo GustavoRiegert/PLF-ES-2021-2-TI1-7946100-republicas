@@ -38,4 +38,4 @@ As ferramentas empregadas no projeto são:
 
 O editor de código foi escolhido porque ele possui uma integração com o sistema de versão.
 A ferramenta de comunicação utilizada é utilizada por todos os envolvidos no projeto, por isso foi escolhida.
-Por fim, para criar diagramas utilizamos o Figma pois há diversas integrações e formatos de exportação.
+Por fim, para criar diagramas utilizamos o Figma pois há diversas integrações e formatos de exportação
