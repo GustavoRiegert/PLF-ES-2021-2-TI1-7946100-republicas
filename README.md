@@ -10,6 +10,7 @@ O objetivo do Projeto é disponibilizar uma aplicação web para estudantes em b
 * Guilherme Felipe Costa Rodrigues
 * Gustavo Henrique Dos Santos Riegert
 * Yuri Lucas Silva Ferreira
+* Gustavo Henrique Cerceau Patrício
 
 ## Professores responsáveis
 
