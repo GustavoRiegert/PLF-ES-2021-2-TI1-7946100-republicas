@@ -6,7 +6,6 @@ O objetivo do Projeto é disponibilizar uma aplicação web para estudantes em b
 ## Alunos integrantes da equipe
 
 * Aline Cristina Braz De Oliveira
-* Daniel De Alcântara Xavier
 * Guilherme Felipe Costa Rodrigues
 * Gustavo Henrique Dos Santos Riegert
 * Yuri Lucas Silva Ferreira
