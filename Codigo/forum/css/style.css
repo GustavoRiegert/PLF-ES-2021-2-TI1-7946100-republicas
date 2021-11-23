@@ -1,0 +1,52 @@
+html {
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  font-family: inherit;
+}
+
+/* Utilitários */
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+/* Republicas X Cores */
+.webapp-color-secondary {
+  background-color: #c4c4c4;
+}
+
+.webapp-color-btn-secondary {
+  /* color: #fff; */
+  color: #212529;
+  background-color: #c4c4c4;
+  border-color: #c4c4c4;
+}
+
+.webapp-color-btn-secondary:hover {
+  color: #fff;
+  background-color: #5c636a;
+  border-color: #565e64;
+}
+
+/* Republicas X logo */
+.republicas-x-logo {
+  display: flex;
+  align-items: center;
+}
+
+.republicas-x-logo img {
+  display: block;
+  width: 5rem;
+}
+
+.republicas-x-logo .republicas-x-logo__text {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02rem;
+  line-height: 1;
+}

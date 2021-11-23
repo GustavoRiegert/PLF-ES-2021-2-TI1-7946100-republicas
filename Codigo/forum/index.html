@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fórum - Repúblicas X</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Cabeçalho -->
+      <header class="d-flex flex-column flex-md-row align-items-center justify-content-between my-4">
+        <span class="republicas-x-logo mb-2 mb-md-0">
+          <img src="img/logo.svg" alt="Logo Repúblicas X" />
+          <span class="republicas-x-logo__text">REPÚBLICAS X</span>
+        </span>
+
+        <ul class="d-flex list-unstyled">
+          <li class="me-2">
+            <button class="btn btn-outline-secondary rounded-pill border-0 text-dark">
+              <img src="img/icon-republicas.svg" alt="Ícone de Repúblicas" />
+              <span>Anúncios</span>
+            </button>
+          </li>
+
+          <li class="me-2">
+            <button class="btn btn-outline-secondary rounded-pill border-0 text-dark">
+              <img src="img/icon-user.svg" alt="Ícone de Repúblicas" />
+              <span>Entrar</span>
+            </button>
+          </li>
+
+          <li>
+            <button class="btn webapp-color-btn-secondary rounded-pill">Anunciar</button>
+          </li>
+        </ul>
+      </header>
+
+      <!-- Conteudo -->
+      <main>
+        <!-- Seção Perguntas e Respostas -->
+        <section>
+          <header class="mb-3">
+            <h1 class="fs-2 fw-bold m-0">Perguntas e Respostas</h1>
+          </header>
+
+          <div class="p-3 mb-4 webapp-color-secondary rounded">
+            <p class="m-0 font-semibold lh-1">
+              Pergunte ao anunciante <small class="fw-normal">(joaogomes@gmail.com)</small>
+            </p>
+            <p class="m-0 lh-1"><small>último acesso às 14:00</small></p>
+          </div>
+
+          <form class="d-flex flex-column align-items-start" id="question-form">
+            <div class="container-fluid mb-3">
+              <div class="row">
+                <div class="col-12 col-md-6 p-0">
+                  <textarea
+                    class="border border-dark rounded w-100"
+                    name="question"
+                    placeholder="Digite aqui uma pergunta para o anunciante..."
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+
+            <button class="d-flex align-items-center btn webapp-color-btn-secondary btn-sm">
+              <span class="me-2 lh-1">Perguntar</span>
+              <img src="img/icon-send.svg" alt="Ícone enviar" />
+            </button>
+          </form>
+        </section>
+
+        <hr class="my-4" />
+
+        <section>
+          <header class="mb-3">
+            <h2 class="fs-5 m-0">Últimas perguntas feitas</h2>
+          </header>
+
+          <!-- As perguntas e respostas são geradas dinamicamente e inseridas dentro deste container -->
+          <div id="answered-questions-container">
+            <!-- Formato base de uma pergunta e resposta -->
+            <!-- <div class="mb-4">
+              <p class="mb-2 lh-1">Ter, 21 de Out</p>
+
+              <div class="p-3 border border-dark rounded shadow-sm">
+                <p class="mb-2 lh-1">
+                  Tem farmácias perto da república?
+                  <small class="fw-light text-black-50">13:45</small>
+                </p>
+
+                <p class="m-0 lh-1 fw-light">
+                  Olá! Tem sim! No quarteirão de baixo há uma Araújo e uma Droga Raia.
+                  <small class="text-black-50">13:45</small>
+                </p>
+              </div>
+            </div> -->
+
+            <!-- Pergunta 2 -->
+            <!-- Pergunta 3 -->
+            <!-- Pergunta ... -->
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- Lib de notificaçoes sweetalert2.github.io -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Script do forum -->
+    <script src="js/forum.js"></script>
+  </body>
+</html>
