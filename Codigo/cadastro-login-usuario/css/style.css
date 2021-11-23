@@ -1,0 +1,76 @@
+/* Força da senha */
+.pwd-strength {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 0.25rem;
+}
+
+.pwd-strength .pwd-weak,
+.pwd-strength .pwd-so-so,
+.pwd-strength .pwd-good {
+  height: 0.5rem;
+  border-radius: 9999px;
+  background: #d8d8d8;
+}
+
+.pwd-strength.pwd-strength--weak .pwd-weak {
+  background: red;
+}
+
+.pwd-strength.pwd-strength--so-so .pwd-weak,
+.pwd-strength.pwd-strength--so-so .pwd-so-so {
+  background: yellow;
+}
+
+.pwd-strength.pwd-strength--good .pwd-weak,
+.pwd-strength.pwd-strength--good .pwd-so-so,
+.pwd-strength.pwd-strength--good .pwd-good {
+  background: greenyellow;
+}
+
+/* Icone da foto de perfil */
+.profile-picture-label {
+  cursor: pointer;
+}
+
+.profile-picture-label .profile-picture-icon {
+  display: flex;
+  background: #c4c4c4;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 0.85rem;
+  line-height: 1.125;
+  font-weight: 400;
+}
+
+form.was-validated input[type="file"]:invalid + .profile-picture-label .profile-picture-icon {
+  background: #dc354680;
+  border: thin solid #dc3545;
+}
+
+form.was-validated input[type="file"]:valid + .profile-picture-label .profile-picture-img {
+  border-color: #198754;
+}
+
+.profile-picture-label .profile-picture-img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: thin solid #ced4da;
+}
+
+/* Se não haver src não mostra a imagem */
+.profile-picture-label .profile-picture-img[src=""] {
+  display: none;
+}
+
+/* Se haver src mostra a imagem e oculta o icone*/
+.profile-picture-label .profile-picture-img:not([src=""]) + .profile-picture-icon {
+  display: none;
+}

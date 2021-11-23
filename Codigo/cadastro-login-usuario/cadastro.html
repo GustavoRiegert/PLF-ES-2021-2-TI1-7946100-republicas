@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro Usuário - Repúblicas X</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-secondary min-vh-100 d-sm-flex flex-column justify-content-center">
+    <!-- #region SIGNIN FORM-->
+    <section class="py-5 py-sm-2 py-md-0 px-2 bg-secondary text-light text-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 bg-white text-dark pt-5 pb-3">
+            <img src="img/logo.svg" alt="Logo do site de repúblicas" />
+            <h1>Crie sua conta!</h1>
+
+            <form id="form" class="d-flex flex-column text-start mt-3" novalidate>
+              <div class="d-flex justify-content-center mb-3">
+                <input
+                  class="d-none"
+                  accept="image/*"
+                  type="file"
+                  name="profile_picture"
+                  id="form-profile-picture"
+                  required
+                />
+                <label for="form-profile-picture" class="d-block profile-picture-label">
+                  <img
+                    class="profile-picture-img"
+                    id="form-profile-picture-img"
+                    src=""
+                    alt="Foto de perfil"
+                  />
+                  <span class="profile-picture-icon">Selecione uma foto de perfil</span>
+                </label>
+              </div>
+
+              <div class="mb-3">
+                <label for="form-floating-email" class="form-label">E-mail</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="form-floating-email"
+                  name="email"
+                  placeholder="nome@email.com"
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                  inputmode="email"
+                  required
+                />
+                <div>
+                  <small class="text-black-50">Enviaremos um e-mail de confirmação.</small>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label" for="form-name">Nome</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  id="form-name"
+                  name="name"
+                  pattern="\D+"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label" for="form-last-name">Sobrenome</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  id="form-last-name"
+                  name="last_name"
+                  pattern="\D+"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label" for="form-phone">Telefone</label>
+                <input
+                  class="form-control"
+                  type="tel"
+                  inputmode="tel"
+                  id="form-phone"
+                  size="11"
+                  minlength="10"
+                  maxlength="11"
+                  name="phone"
+                  required
+                  pattern="\d+"
+                />
+                <div>
+                  <small class="text-black-50">Informe o telefone com DDD sem o 0 no inicio.</small>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <div>Sexo</div>
+
+                <div class="d-flex justify-content-between">
+                  <div class="form-check me-2">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      id="form-gender-masculine"
+                      name="gender"
+                      value="masculine"
+                      required
+                    />
+                    <label class="form-check-label" for="form-gender-masculine">Masculino</label>
+                  </div>
+
+                  <div class="form-check me-2">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      id="form-gender-feminine"
+                      name="gender"
+                      value="feminine"
+                      required
+                    />
+                    <label class="form-check-label" for="form-gender-feminine">Feminino</label>
+                  </div>
+
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      id="form-gender-prefer-not-to-inform"
+                      name="gender"
+                      value="prefer_not_to_inform"
+                      required
+                    />
+                    <label class="form-check-label" for="form-gender-prefer-not-to-inform">
+                      Prefiro não informar
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="form-floating-password" class="form-label">Senha</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="form-floating-password"
+                  name="password"
+                  placeholder="********"
+                  pattern="(?=^.{3,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Za-z]).*$"
+                  required
+                />
+                <div>
+                  <small class="text-black-50">Use letras, números e caracteres especiais.</small>
+                </div>
+                <div class="pwd-strength" id="pwd-strength">
+                  <span class="pwd-weak"></span>
+                  <span class="pwd-so-so"></span>
+                  <span class="pwd-good"></span>
+                </div>
+              </div>
+
+              <button type="submit" class="align-self-center mb-3 btn btn-secondary rounded-pill">
+                Cadastre-se
+              </button>
+            </form>
+
+            <div>
+              Já tem uma conta?
+              <a href="acessar.html" class="text-decoration-none text-info">Entrar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #endregion -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/alerts-service.js"></script>
+    <script src="js/user-service.js"></script>
+    <script src="js/signin.js"></script>
+  </body>
+</html>
