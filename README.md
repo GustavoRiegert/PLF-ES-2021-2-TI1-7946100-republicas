@@ -3,8 +3,6 @@
 
 O objetivo do Projeto é disponibilizar uma aplicação web para estudantes em busca de repúblicas. A busca será orientada pelas repúblicas disponíveis em relação a distância do local onde estudam.
 
-- Link GitHub Pages: [Repúblicas X](https://icei-puc-minas-pples-ti.github.io/PLF-ES-2021-2-TI1-7946100-republicas/Codigo/home/Rep.html)
-
 ## Alunos integrantes da equipe
 
 * Aline Cristina Braz De Oliveira
@@ -22,3 +20,5 @@ O objetivo do Projeto é disponibilizar uma aplicação web para estudantes em b
 ## Instruções de utilização
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+
+Acesse o Repúblicas X no GitHub Pages: [Repúblicas X](https://icei-puc-minas-pples-ti.github.io/PLF-ES-2021-2-TI1-7946100-republicas/Codigo/cadastro-login-usuario/acessar.html)
