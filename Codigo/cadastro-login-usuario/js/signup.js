@@ -18,6 +18,7 @@ function formSubmitListener(event) {
     console.debug(email, pwd);
     doLogin(email, pwd);
     showPersistentAlert(undefined, "Login efetuado, redirecionando...");
+    window.location.href ="../home/Rep.html";
   } catch (error) {
     console.debug(error);
     showAlert(undefined, error.message, "error");
