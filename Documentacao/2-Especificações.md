@@ -82,13 +82,13 @@ A capacidade necessitada por um usuário para resolver o problema ou atingir um 
 |RF-011 | O mapa da página de entrada deverá aparecer no local as repúblicas próximas ao que o usuário colocar sua cidade e faculdade | MÉDIA |
 |RF-012 | A partir da filtragem de itens deverá aparecer apenas os imóveis com prioridade das comodidades selecionadas | MÉDIA |
 |RF-013 | parte para criar um anúncio deverá ter opções para o dono de república especificar o imóvel com as comodidades e detalhes além de poder adicionar fotos do mesmo | ALTA |
-RNF-014 | Ao clicar em meus anúncios o anunciante será redirecionado para uma página a qual poderá excluir seu anúncio e ver editá-lo | MÉDIA |
+|RF-014 | Ao clicar em meus anúncios o anunciante será redirecionado para uma página a qual poderá excluir seu anúncio e ver editá-lo | MÉDIA |
 
 ### Requisitos não Funcionais
 
 ##NÃO FUNCIONAIS
 ID | DESCRIÇÃO DO REQUISITO | PRIORIDADE |
-|------|-------------------------------------------------------|
+|------|----------------------------------------------|---------|
 RNF-01 | A parte de cadastro deverá ser de forma simplificada podendo criar um e-mail e senha novos a partir do site ou para facilitar sincronizar com as contas do Google ou Facebook. | ALTA |
 RNF-02 | A parte de login deverá ser sincronizada com a conta do Google ou Facebook, ou a pessoa poderá logar na conta criada na parte do cadastre-se | ALTA |
 RNF-03 | O chat deverá ser de forma simples e objetiva sem muitas informações para os usuários, apenas aquilo necessário | BAIXA |
