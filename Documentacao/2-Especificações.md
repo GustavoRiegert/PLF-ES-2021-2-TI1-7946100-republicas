@@ -66,7 +66,6 @@ A capacidade necessitada por um usuário para resolver o problema ou atingir um 
 
 ### Requisitos Funcionais
 
-##FUNCIONAIS
 |ID | DESCRIÇÃO DO REQUISITO | PRIORIDADE |
 |------|--------------------------------|-----------------------|
 |RF-001 | Ao entrar no site deverá aparecer ao usuário uma caixa com a cidade e a universidade a qual ele busca o imóvel (República), juntamente com um mapa do mesmo | ALTA |
@@ -86,7 +85,6 @@ A capacidade necessitada por um usuário para resolver o problema ou atingir um 
 
 ### Requisitos não Funcionais
 
-##NÃO FUNCIONAIS
 ID | DESCRIÇÃO DO REQUISITO | PRIORIDADE |
 |------|----------------------------------------------|---------|
 RNF-01 | A parte de cadastro deverá ser de forma simplificada podendo criar um e-mail e senha novos a partir do site ou para facilitar sincronizar com as contas do Google ou Facebook. | ALTA |
