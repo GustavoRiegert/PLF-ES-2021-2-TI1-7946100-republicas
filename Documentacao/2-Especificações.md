@@ -6,41 +6,41 @@ Tendo como objetivo principal a criação de um projeto que auxilie à busca por
 
 ## Personas
 
-* ![image](/images/loreneFreitas.png)
-Nome: Lorene Freitas<br />
+* ![lorena](images/loreneFreitas.png)
+Nome: Lorene Freitas<br/>
 Idade: 18<br />
-Hobby: Leitura<br />
-Trabalho: Estudante<br />
-Personalidade: Extrovertida, Carismática, Brincalhona<br />
-Sonhos: Passar em medicina na federal<br />
-Objetos e lugares: Celular e Computador. Uma alta frequência no uso do celular e moderada quanto ao computador, usado para estudo e entretenimento.<br />
-Objetivos chaves: Necessidade em encontrar uma república com custo moderado/baixo para que possa continuar a seguir seu sonho de ir pra faculdade.<br />
-Como devemos tratá-la: Local arejado, com convívio intenso de pessoas, para que possa criar laços de amizades.<br />
-Nunca devemos: Fotos com má qualidade, que não permita o usuário ver bem qual o local que está entrando, omissão de informações.<br />
+Hobby: Leitura<br/>
+Trabalho: Estudante<br/>
+Personalidade: Extrovertida, Carismática, Brincalhona<br/>
+Sonhos: Passar em medicina na federal<br/>
+Objetos e lugares: Celular e Computador. Uma alta frequência no uso do celular e moderada quanto ao computador, usado para estudo e entretenimento.<br/>
+Objetivos chaves: Necessidade em encontrar uma república com custo moderado/baixo para que possa continuar a seguir seu sonho de ir pra faculdade.<br/>
+Como devemos tratá-la: Local arejado, com convívio intenso de pessoas, para que possa criar laços de amizades.<br/>
+Nunca devemos: Fotos com má qualidade, que não permita o usuário ver bem qual o local que está entrando, omissão de informações.<br/>
 
-* ![image](/images/loreneFreitas.png)
-Nome: Marcos Gabriel
-Idade: 23
-Hobby: Praticar esportes
-Trabalho: Professor
-Personalidade: Extrovertido, engraçado e animado
-Sonhos: Criar algo que ajude a comunidade.
-Objetos e lugares: Celular: Usa com mais frequência para se comunicar  e se manter informado. Notebook: Usa para entretenimento e para trabalhar.            
-Objetivos chaves: Encontrar um lugar para morar enquanto cursa a faculdade
-Como devemos tratá-la: Mostrar todas as informações necessárias para que tenham mais informações sobre o local e das características do local.
-Nunca devemos: Não deixar dar falsas informações ou deixar de entregar todas as informações necessárias. 
+* ![marcos](images/loreneFreitas.png)
+Nome: Marcos Gabriel<br/>
+Idade: 23<br/>
+Hobby: Praticar esportes<br/>
+Trabalho: Professor<br/>
+Personalidade: Extrovertido, engraçado e animado<br/>
+Sonhos: Criar algo que ajude a comunidade.<br/>
+Objetos e lugares: Celular: Usa com mais frequência para se comunicar  e se manter informado. Notebook: Usa para entretenimento e para trabalhar.   <br/>         
+Objetivos chaves: Encontrar um lugar para morar enquanto cursa a faculdade<br/>
+Como devemos tratá-la: Mostrar todas as informações necessárias para que tenham mais informações sobre o local e das características do local.<br/>
+Nunca devemos: Não deixar dar falsas informações ou deixar de entregar todas as informações necessárias. <br/>
 
-* ![image](/images/lauraAndrade.png)
-Nome:  Laura Andrade
-Idade: 19
-Hobby: Passear com cachorrinho.
-Trabalho: Estudante.
-Personalidade: Divertida, carismática porém sarcástica.
-Sonhos: Intercâmbio em harvard
-Objetos e lugares: Celular, notebook, desktop
-Objetivos chaves: Encontrar um lugar tranquilo para morar, ter informações sobre os arredores sobre o local, bom custo/benefício, proximidade com a universidade.
-Como devemos tratá-la: Mostrar objetivos claros e sucintos, informações prioritárias e avaliações em destaque. 
-Nunca devemos: Omitir qualquer tipo de informação, pouco esclarecimento
+* ![laura](images/lauraAndrade.png)
+Nome:  Laura Andrade<br/>
+Idade: 19<br/>
+Hobby: Passear com cachorrinho.<br/>
+Trabalho: Estudante.<br/>
+Personalidade: Divertida, carismática porém sarcástica.<br/>
+Sonhos: Intercâmbio em harvard<br/>
+Objetos e lugares: Celular, notebook, desktop<br/>
+Objetivos chaves: Encontrar um lugar tranquilo para morar, ter informações sobre os arredores sobre o local, bom custo/benefício, proximidade com a universidade.<br/>
+Como devemos tratá-la: Mostrar objetivos claros e sucintos, informações prioritárias e avaliações em destaque. <br/>
+Nunca devemos: Omitir qualquer tipo de informação, pouco esclarecimento<br/>
 
 ## Histórias de Usuários
 
