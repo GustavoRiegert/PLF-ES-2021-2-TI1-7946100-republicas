@@ -68,7 +68,7 @@ A capacidade necessitada por um usuário para resolver o problema ou atingir um 
 
 ##FUNCIONAIS
 |ID | DESCRIÇÃO DO REQUISITO | PRIORIDADE |
-|------|-------------------------------------------------------|
+|------|--------------------------------|-----------------------|
 |RF-001 | Ao entrar no site deverá aparecer ao usuário uma caixa com a cidade e a universidade a qual ele busca o imóvel (República), juntamente com um mapa do mesmo | ALTA |
 |RF-002 | Em sua página inicial o site deverá ter um campo exclusivo para login e cadastro de usuários. | ALTA |
 |RF-003 | O site deverá ter um espaço onde permite cadastro de imóveis (Repúblicas de alunos). | ALTA |
