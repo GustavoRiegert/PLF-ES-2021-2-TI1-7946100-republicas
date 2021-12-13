@@ -8,16 +8,16 @@ Tendo como objetivo principal a criação de um projeto que auxilie à busca por
 
 * <div align="center">
     ![image](https://user-images.githubusercontent.com/89880731/145891312-0e42d7a5-cc72-4f6e-bc09-b4e99e4b6cc7.png)
-</div> Nome: Lorene Freitas
-Idade: 18
-Hobby: Leitura
-Trabalho: Estudante
-Personalidade: Extrovertida, Carismática, Brincalhona
-Sonhos: Passar em medicina na federal
-Objetos e lugares: Celular e Computador. Uma alta frequência no uso do celular e moderada quanto ao computador, usado para estudo e entretenimento.
-Objetivos chaves: Necessidade em encontrar uma república com custo moderado/baixo para que possa continuar a seguir seu sonho de ir pra faculdade
-Como devemos tratá-la: Local arejado, com convívio intenso de pessoas, para que possa criar laços de amizades.
-Nunca devemos: Fotos com má qualidade, que não permita o usuário ver bem qual o local que está entrando, omissão de informações.
+</div> Nome: Lorene Freitas<br />
+Idade: 18<br />
+Hobby: Leitura<br />
+Trabalho: Estudante<br />
+Personalidade: Extrovertida, Carismática, Brincalhona<br />
+Sonhos: Passar em medicina na federal<br />
+Objetos e lugares: Celular e Computador. Uma alta frequência no uso do celular e moderada quanto ao computador, usado para estudo e entretenimento.<br />
+Objetivos chaves: Necessidade em encontrar uma república com custo moderado/baixo para que possa continuar a seguir seu sonho de ir pra faculdade.<br />
+Como devemos tratá-la: Local arejado, com convívio intenso de pessoas, para que possa criar laços de amizades.<br />
+Nunca devemos: Fotos com má qualidade, que não permita o usuário ver bem qual o local que está entrando, omissão de informações.<br />
 
 * <div align="center">
     ![image](https://user-images.githubusercontent.com/89880731/145891280-8505eb37-5481-46ca-b2c3-a4ecab4b38c3.png)
