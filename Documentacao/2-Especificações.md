@@ -62,38 +62,46 @@ A partir das entrevistas de cada persona abaixo e suas histórias podemos ter co
 
 ## Requisitos
 
-As tabelas que a seguir apresentam os requisitos funcionais e não funcionais, estes detalham o escopo do projeto.
+A capacidade necessitada por um usuário para resolver o problema ou atingir um objetivo é chamada de requisito a partir dessa existem 3 tipos que auxiliam na elaboração do projeto, entre eles:
 
 ### Requisitos Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RF-001| O sistema deve prover o cadastro do usuário contendo as entradas: nome, e-mail e senha. | ESSENCIAL | 
-|RF-002| O sistema deve prover o cadastro de informações usuário contendo as entradas:  idade, sexo, tipo sanguíneo, alergias. |  ALTA |
-|RF-003| O sistema deve prover o cadastro do histórico de vacinas do usuário. O cadastro deve possibilitar as entradas: vacina aplicada, data de aplicação, data da próxima dose (se houver), observações (campo aberto - local, cidade, etc). | ESSENCIAL |
-|RF-004| O sistema deve prover o cadastro do nome e data das próximas vacinas a serem aplicadas no usuário. | ALTA |
-|RF-005| O sistema deve conter um calendário com marcação das futuras doses já cadastradas. | DESCARTADO |
-|RF-006| O sistema deve indicar as próximas doses cadastradas com antecedência de 7 dias e no dia da vacinação. O aviso deve ser dado por meio de mensagem pop-up e/ou email. | DESCARTADO |
-|RF-007| O sistema deve informar sobre as campanhas de vacinação que estão em andamento ou vão começar. | DESCARTADO |
-|RF-008| O sistema deve prover um menu de configurações. | DESCARTADO |
-|RF-009| O sistema deve prover um sistema de login e logout. | MÉDIA |
+##FUNCIONAIS
+|ID | DESCRIÇÃO DO REQUISITO | PRIORIDADE |
+|------|-------------------------------------------------------|
+|RF-001 | Ao entrar no site deverá aparecer ao usuário uma caixa com a cidade e a universidade a qual ele busca o imóvel (República), juntamente com um mapa do mesmo | ALTA |
+|RF-002 | Em sua página inicial o site deverá ter um campo exclusivo para login e cadastro de usuários. | ALTA |
+|RF-003 | O site deverá ter um espaço onde permite cadastro de imóveis (Repúblicas de alunos). | ALTA |
+|RF-004 | O site deverá ter um espaço para mostrar a capacidade máxima possível de pessoas na casa, de quantas pessoas residem atualmente e informar quando a república estiver com sua lotação máxima. | ALTA |
+|RF-005 | O site deverá promover ao usuário um campo de filtros, onde possa selecionar as opções de detalhes e comodidades que ela queira na república para facilitar a busca. | ALTA |
+|RF-006 | O site deverá ter um campo para Chat com o responsável da república para tirar dúvidas e para possíveis negociações. | MÉDIA |
+|RF-007 | O site deve permitir que o anunciante possa editar o anúncio da república de alunos, podendo: Atualizar as fotos e a descrição do local e mudar o valor. | MÉDIA |
+|RF-008 | Ao clicar no anúncio o usuário poderá ver mais detalhes dos imóveis e quantos hóspedes residem nele, além de comentários de ex-moradores e um local para ser redirecionado para o chat | ALTA |
+|RF-009 | Ao criar o anúncio o anunciante poderá ver os comentários que são feitos pelos usuários e editar os detalhes descritos por ele sobre a república de alunos como: As fotos publicadas sobre o local, o valor pedido, o mapa da localização e as comodidades do local. | BAIXA |
+|RF-010 | O sistema do site deve registrar quando a república estiver com sua lotação máxima e aparecer indisponível quando as pessoas estiverem pesquisando para facilitar a busca. | ALTA |
+|RF-011 | O mapa da página de entrada deverá aparecer no local as repúblicas próximas ao que o usuário colocar sua cidade e faculdade | MÉDIA |
+|RF-012 | A partir da filtragem de itens deverá aparecer apenas os imóveis com prioridade das comodidades selecionadas | MÉDIA |
+|RF-013 | parte para criar um anúncio deverá ter opções para o dono de república especificar o imóvel com as comodidades e detalhes além de poder adicionar fotos do mesmo | ALTA |
+RNF-014 | Ao clicar em meus anúncios o anunciante será redirecionado para uma página a qual poderá excluir seu anúncio e ver editá-lo | MÉDIA |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O layout deve ser responsivo possibilitando uma experiência de usuário completa em dispositivos desktops e mobile. | ALTA |
-|RNF-002| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA |
-|RNF-003| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku). | ALTA |
+##NÃO FUNCIONAIS
+ID | DESCRIÇÃO DO REQUISITO | PRIORIDADE |
+|------|-------------------------------------------------------|
+RNF-01 | A parte de cadastro deverá ser de forma simplificada podendo criar um e-mail e senha novos a partir do site ou para facilitar sincronizar com as contas do Google ou Facebook. | ALTA |
+RNF-02 | A parte de login deverá ser sincronizada com a conta do Google ou Facebook, ou a pessoa poderá logar na conta criada na parte do cadastre-se | ALTA |
+RNF-03 | O chat deverá ser de forma simples e objetiva sem muitas informações para os usuários, apenas aquilo necessário | BAIXA |
+RNF-04 | Ao clicar em meus anúncios o anunciante será redirecionado para uma página a qual poderá excluir seu anúncio e ver editá-lo | MÉDIA |
 
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID    | Restrição                                             |
+|ID    | RESTRIÇÃO                                             |
 |------|-------------------------------------------------------|
-|RE-001| O programa deve ser implementado em HTML/CSS e JavaScript. |
-|RE-002| O projeto deverá ser entregue no final do semestre letivo. |
-|RE-003| A equipe não pode subcontratar o desenvolvimento do trabalho. |
-
+|RE-001| O programa deve ser implementado em HTML/CSS e JavaScript |
+|RE-002| O projeto deverá ser entregue no final do semestre letivo de 2021 |
+|RE-003| Não usará ranking de repúblicas |
+|RE-004| Não criará contrato entre anunciante e visitante |
