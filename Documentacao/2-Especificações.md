@@ -6,9 +6,8 @@ Tendo como objetivo principal a criação de um projeto que auxilie à busca por
 
 ## Personas
 
-* <div align="center">
-    ![image](https://user-images.githubusercontent.com/89880731/145891312-0e42d7a5-cc72-4f6e-bc09-b4e99e4b6cc7.png)
-</div> Nome: Lorene Freitas<br />
+* ![image](/images/loreneFreitas.png)
+Nome: Lorene Freitas<br />
 Idade: 18<br />
 Hobby: Leitura<br />
 Trabalho: Estudante<br />
@@ -19,9 +18,8 @@ Objetivos chaves: Necessidade em encontrar uma república com custo moderado/bai
 Como devemos tratá-la: Local arejado, com convívio intenso de pessoas, para que possa criar laços de amizades.<br />
 Nunca devemos: Fotos com má qualidade, que não permita o usuário ver bem qual o local que está entrando, omissão de informações.<br />
 
-* <div align="center">
-    ![image](https://user-images.githubusercontent.com/89880731/145891280-8505eb37-5481-46ca-b2c3-a4ecab4b38c3.png)
-</div>Nome: Marcos Gabriel
+* ![image](/images/loreneFreitas.png)
+Nome: Marcos Gabriel
 Idade: 23
 Hobby: Praticar esportes
 Trabalho: Professor
@@ -32,9 +30,8 @@ Objetivos chaves: Encontrar um lugar para morar enquanto cursa a faculdade
 Como devemos tratá-la: Mostrar todas as informações necessárias para que tenham mais informações sobre o local e das características do local.
 Nunca devemos: Não deixar dar falsas informações ou deixar de entregar todas as informações necessárias. 
 
-* <div align="center">
-    ![image](https://user-images.githubusercontent.com/89880731/145891415-ed61c45c-d68f-4566-8a08-6a15435c97cf.png)
-</div>Nome:  Laura Andrade
+* ![image](/images/lauraAndrade.png)
+Nome:  Laura Andrade
 Idade: 19
 Hobby: Passear com cachorrinho.
 Trabalho: Estudante.
