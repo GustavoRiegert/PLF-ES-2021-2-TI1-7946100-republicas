@@ -54,7 +54,7 @@ A partir das entrevistas de cada persona abaixo e suas histórias podemos ter co
 |Lorene Freitas      | Preço e fotos que mostrem completamente o local  | Criar um filtro baseado na renda da pessoa que pretende locar                          |
 |Letícia Alves       | Localização, Proximidade das Universidades, Perfil de Moradores | Melhor filtro a partir de uma localização baseada no local da faculdade para usuários que não conhecem bem os bairros próximos a faculdade                        |
 |João Victor      |Uma forma de conversar com as pessoas que dividirá a república antes de decidir, para poder ter uma avaliação se será de agrado para todos     |Uma amostra do perfil das pessoas que irá morar junto para achar pontos de interesse comum  |
-|Laura Andrade       |Avaliações de repúblicas por moradores que já moraram lá  |Ajudariam a buscar aquelas possuem uma melhor experiência vivenciada por cada um dos ex-moradores                            |
+|Laura Andrade       |Avaliações de repúblicas por moradores que já moraram lá  |Ajudariam a buscar aquelas casas que possuem uma melhor experiência vivenciada por cada um dos ex-moradores                            |
 |Marcus Gabriel     |Como seria organizado as despesas da casa   |Para melhor entendimento e praticidade a especificação no título do anúncio pouparia tempo  |
 |Giovana Melo | As coisas que tem próximo a ela, Informações sobre o bairro (supermercados, farmácias, atendimento médico) | Diminuição dos gastos com transportes para esses locais   |
 |Rafael Brandão | Possíveis pontos de conflito explicitados | Facilitaria na adequação do usuário no ambiente
