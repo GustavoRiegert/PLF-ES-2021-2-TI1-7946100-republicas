@@ -6,7 +6,7 @@ Tendo como objetivo principal a criação de um projeto que auxilie à busca por
 
 ## Personas
 
-* <p align="center">
+ <p align="center">
   <img src="images/loreneFreitas.png" alt="lorena" width="300" height="200"/>
 </p> <br/>
 Nome: Lorene Freitas<br/>
@@ -20,7 +20,7 @@ Objetivos chaves: Necessidade em encontrar uma república com custo moderado/bai
 Como devemos tratá-la: Local arejado, com convívio intenso de pessoas, para que possa criar laços de amizades.<br/>
 Nunca devemos: Fotos com má qualidade, que não permita o usuário ver bem qual o local que está entrando, omissão de informações.<br/>
 
-* <p align="center">
+ <p align="center">
   <img src="images/marcosGabriel.png" alt="lorena" width="300" height="200"/>
 </p> <br/>
 Nome: Marcos Gabriel<br/>
@@ -35,7 +35,7 @@ Como devemos tratá-la: Mostrar todas as informações necessárias para que ten
 Nunca devemos: Não deixar dar falsas informações ou deixar de entregar todas as informações necessárias. <br/>
 
 
-* <p align="center">
+ <p align="center">
   <img src="images/lauraAndrade.png" alt="lorena" width="300" height="200"/>
 </p> <br/>
 Nome:  Laura Andrade<br/>
