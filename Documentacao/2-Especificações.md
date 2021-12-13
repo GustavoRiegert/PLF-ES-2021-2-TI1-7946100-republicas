@@ -53,11 +53,12 @@ A partir das entrevistas de cada persona abaixo e suas histórias podemos ter co
 |--------------------|--------------------------------------------------|----------------------------------------------------------------------------------------|
 |Lorene Freitas      | Preço e fotos que mostrem completamente o local  | Criar um filtro baseado na renda da pessoa que pretende locar                          |
 |Letícia Alves       | Localização, Proximidade das Universidades, Perfil de Moradores | Melhor filtro a partir de uma localização baseada no local da faculdade para usuários que não conhecem bem os bairros próximos a faculdade                        |
-|José Marinaldo      |Receber notícias sobre campanhas de vacinação     |Os canais que são divulgados as campanhas são muitos e nem sempre chega até mim em tempo hábil |
-|Mariana Alves       |Poder manter um registro dos meus filhos digital  |O cartão de vacina em papel pode ser perdido e é limitado                               |
-|Marcos Palheiros    |Não perder os registros de vacinação que tomei    |Porque cartões de papéis são fáceis de perder enquanto o digital está sempre disponível |
-|Maria Santos | Ter acesso ao cartão de vacina tanto no desktop quanto no celular | Poder acessar de forma fácil o cartão de vacina quando precisar |
-
+|João Victor      |Uma forma de conversar com as pessoas que dividirá a república antes de decidir, para poder ter uma avaliação se será de agrado para todos     |Uma amostra do perfil das pessoas que irá morar junto para achar pontos de interesse comum  |
+|Laura Andrade       |Avaliações de repúblicas por moradores que já moraram lá  |Ajudariam a buscar aquelas possuem uma melhor experiência vivenciada por cada um dos ex-moradores                            |
+|Marcus Gabriel     |Como seria organizado as despesas da casa   |Para melhor entendimento e praticidade a especificação no título do anúncio pouparia tempo  |
+|Giovana Melo | As coisas que tem próximo a ela, Informações sobre o bairro (supermercados, farmácias, atendimento médico) | Diminuição dos gastos com transportes para esses locais   |
+|Rafael Brandão | Possíveis pontos de conflito explicitados | Facilitaria na adequação do usuário no ambiente
+|Augusto Mentes | Acredito que a pergunta: "O que ou onde você estuda?". Poderia ajudar a encontrar um lugar mais "sua cara", com pessoas que compartilhem do mesmo curso ou faculdade | Facilita a criação de uma amizade, provendo um melhor convívio 
 
 ## Requisitos
 
