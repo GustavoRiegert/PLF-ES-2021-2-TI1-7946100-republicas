@@ -6,7 +6,7 @@ Tendo como objetivo principal a criação de um projeto que auxilie à busca por
 
 ## Personas
 
-* ![lorena](images/loreneFreitas.png)
+* ![lorena](images/loreneFreitas.png) <br/>
 Nome: Lorene Freitas<br/>
 Idade: 18<br />
 Hobby: Leitura<br/>
@@ -18,7 +18,7 @@ Objetivos chaves: Necessidade em encontrar uma república com custo moderado/bai
 Como devemos tratá-la: Local arejado, com convívio intenso de pessoas, para que possa criar laços de amizades.<br/>
 Nunca devemos: Fotos com má qualidade, que não permita o usuário ver bem qual o local que está entrando, omissão de informações.<br/>
 
-* ![marcos](images/loreneFreitas.png)
+* ![marcos](images/marcosGabriel.png) <br/>
 Nome: Marcos Gabriel<br/>
 Idade: 23<br/>
 Hobby: Praticar esportes<br/>
@@ -30,7 +30,7 @@ Objetivos chaves: Encontrar um lugar para morar enquanto cursa a faculdade<br/>
 Como devemos tratá-la: Mostrar todas as informações necessárias para que tenham mais informações sobre o local e das características do local.<br/>
 Nunca devemos: Não deixar dar falsas informações ou deixar de entregar todas as informações necessárias. <br/>
 
-* ![laura](images/lauraAndrade.png)
+* ![laura](images/lauraAndrade.png) <br/>
 Nome:  Laura Andrade<br/>
 Idade: 19<br/>
 Hobby: Passear com cachorrinho.<br/>
