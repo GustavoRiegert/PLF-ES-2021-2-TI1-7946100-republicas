@@ -1,0 +1,297 @@
+/* header */
+img.logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+}
+
+.tit_1{
+    padding-top: 10px;
+}
+
+.menu_itens
+{
+    margin-top: 20px;
+}
+
+.menu_itens a
+{
+    color: black;
+}
+
+.ab {
+    border-radius: 40px;
+    margin-left: 5px;
+    background-color: #e5e5e5;
+}
+
+#menuToggle{
+    display: none;
+}
+.menu-icon{
+    display: none;
+}
+.abrirmenu
+{
+    color: black;
+}
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+}
+/* header */
+
+/* row fotos */
+.images-pri img{
+    width: 650px;
+    height: 480px;
+    padding: 10px;
+}
+
+.images-sec img{
+    width: 300px;
+    height: 240px;
+    padding: 10px;
+}
+/* row fotos */
+
+/* row infos */
+#infos {
+    padding: 20px 0px 15px;
+}
+
+.second-content h2 {
+    padding: 10px;
+    color: #646464;
+    font-size: 35px;
+}
+
+.second-content a {
+    background: #ededed;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 50px;
+    transition: 1s;
+    display: block;
+    text-align: center;
+}
+
+.second-content {
+    width: 100%;
+    text-align: end;
+}
+/* row infos */
+
+/* row comodidades */
+.comodidades {
+    padding: 10px 0px 10px;
+}
+
+.comodidades > span {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+/* row comodidades */
+
+/* row details */
+.comments {
+    margin-top: 10px;
+}
+
+.single-comment img {
+    width: 50px;
+    height: 50px;
+    border-radius: 180px;
+}
+
+.single-comment {
+    margin-bottom: 5rem;
+    background: #dfdfdf;
+    padding: 10px;
+    width: 100%;
+}
+
+.single-comment b{
+    padding: 10px;
+}
+
+.single-comment p{
+    padding: 5px;
+}
+
+.mapouter {
+    text-align: center;
+    height: 500px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 400px;
+    width: 100%;
+}
+/* row details */
+
+.dropdown #dropdownMenuButton1 {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.702);
+    border-color: rgba(0, 0, 0, 0.702);
+}
+
+@media screen and (max-width: 768px)
+{
+    .header{  
+        top: 0px;
+        width: 100%;
+    }
+    .header nav{
+        display: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .menu{
+        display: flex;
+        position: fixed;
+        flex-wrap: wrap;
+        align-content: center;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 0%;
+        background-color: rgba(0,0,0, 0.7);
+        overflow: hidden;
+        transition: height 0.3s;
+        z-index: 1;
+    }
+    
+    .menu li{
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .menu li a{
+        display: block;
+        text-align: center;
+        width: 100%;
+        color: white;
+    }
+    .menu i{
+        display: none;
+    }
+    .ab{
+        background-color: rgba(0,0,0, 0.0);
+    }
+    .menu-icon{
+        display: block;
+        color: white;
+        width: 50px;
+        height: inherit;
+        position: absolute;
+        top: 15px;
+        right: 30px;
+        line-height: 60px;
+        z-index: 999;
+    }
+    .menu-icon i{
+        font-size: 1.7em;
+        padding-top: 6px;
+    }
+    #menuToggle:checked ~ label i:nth-child(2){
+        display: block;
+    }
+    #menuToggle:checked ~ label i:first-child{
+        display: none;
+    }
+    #menuToggle:not(checked) ~ label i:nth-child(2){
+        display: none;
+    }
+    #menuToggle:not(checked) ~ label i:first-child{
+        display: block;
+    }
+    #menuToggle:checked ~ ul{
+        height: 100%;
+    }
+    i
+    .anunciante{
+        height: 1000px;
+    }
+
+}
+    
+@media screen and (max-width: 576px) {
+    .tit_1 {
+        font-size: 22px;
+    }
+
+    .abrirmenu
+    {
+        margin-top: 10px;
+        text-align: right;
+    }
+
+    /* row fotos */
+    .images-pri img{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+
+    .images-sec img{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+    /* row fotos */
+
+    /* row infos */
+    #infos {
+        padding: 20px 0px 15px;
+    }
+
+    .second-content h2 {
+        text-align: center;
+        padding: 10px;
+        color: #646464;
+        font-size: 35px;
+    }
+    /* row infos */
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1030px){
+    .dropdown #dropdownMenuButton1 {
+        font-size: 14px;
+    }
+
+    /* row fotos */
+    .images-pri img{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+
+    .images-sec img{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+    /* row fotos */
+
+    /* row infos */
+    #infos {
+        padding: 20px 0px 15px;
+    }
+
+    .second-content h2 {
+        text-align: center;
+        padding: 10px;
+        color: #646464;
+        font-size: 35px;
+    }
+    /* row infos */
+}
