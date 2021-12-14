@@ -6,7 +6,7 @@ Tendo como objetivo principal a criação de um projeto que auxilie à busca por
 
 ## Personas
 
-* <p align="center">
+ <p align="center">
   <img src="images/loreneFreitas.png" alt="lorena" width="300" height="200"/>
 </p> <br/>
 Nome: Lorene Freitas<br/>
@@ -18,9 +18,9 @@ Sonhos: Passar em medicina na federal<br/>
 Objetos e lugares: Celular e Computador. Uma alta frequência no uso do celular e moderada quanto ao computador, usado para estudo e entretenimento.<br/>
 Objetivos chaves: Necessidade em encontrar uma república com custo moderado/baixo para que possa continuar a seguir seu sonho de ir pra faculdade.<br/>
 Como devemos tratá-la: Local arejado, com convívio intenso de pessoas, para que possa criar laços de amizades.<br/>
-Nunca devemos: Fotos com má qualidade, que não permita o usuário ver bem qual o local que está entrando, omissão de informações.<br/>
+Nunca devemos: Fotos com má qualidade, que não permita o usuário ver bem qual o local que está entrando, omissão de informações.<br/><br/>
 
-* <p align="center">
+ <p align="center">
   <img src="images/marcosGabriel.png" alt="lorena" width="300" height="200"/>
 </p> <br/>
 Nome: Marcos Gabriel<br/>
@@ -32,10 +32,10 @@ Sonhos: Criar algo que ajude a comunidade.<br/>
 Objetos e lugares: Celular: Usa com mais frequência para se comunicar  e se manter informado. Notebook: Usa para entretenimento e para trabalhar.   <br/>         
 Objetivos chaves: Encontrar um lugar para morar enquanto cursa a faculdade<br/>
 Como devemos tratá-la: Mostrar todas as informações necessárias para que tenham mais informações sobre o local e das características do local.<br/>
-Nunca devemos: Não deixar dar falsas informações ou deixar de entregar todas as informações necessárias. <br/>
+Nunca devemos: Não deixar dar falsas informações ou deixar de entregar todas as informações necessárias. <br/><br/>
 
 
-* <p align="center">
+ <p align="center">
   <img src="images/lauraAndrade.png" alt="lorena" width="300" height="200"/>
 </p> <br/>
 Nome:  Laura Andrade<br/>

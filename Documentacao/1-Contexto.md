@@ -6,25 +6,15 @@
 
 ## Objetivos
 O projeto tem como objetivo central solucionar  as dificuldade que universitarios ou futuros universitarios têm para encontrar republicas de alunos através de sites e aplicativos com mais conforto e que se encaixa melhor com aquilo que procura. O principal objetivo do site é trazer de forma prática e fácil uma plataforma que além dos estudantes terem a opção de escolher uma república, ele também poderá escolher sua moradia baseado em alguns filtros com caracteristicas do imóvel e tambem alguns filtros pessoasis. Alguns desses filtros são:
-
 >
-
 >- Moradias baseado em um mapa de proximidade da faculdade do universitário.
-
 >
-
 >- Procurar republicas as quais moram somente homens, mulheres ou pessoas LGBTQIA+.
-
 >
-
 >- Gostos e personalidades parecidas com o universitao. Para que assim o ambiente possa ser mais agradavel e ambiente, para que o universitário tenha uma boa experiência e sua escolha seja mais acertiva.
-
 >
-
 >- Quantidade de comodidades oferecidas pelo locador. Como: WI-FI, garagem, quartos mobiliados, etc.
-
 >
-
 >- Além de facilitar o contato com os moradores e ex-moradoress de um forum, tornando tudo mais prático.
 
 ## Justificativa
