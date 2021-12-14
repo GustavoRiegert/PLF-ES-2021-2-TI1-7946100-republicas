@@ -1,19 +1,20 @@
 # Informações do Projeto
-`TÍTULO DO PROJETO`  
+REPÚBLICAS X 
 
 Trabalho Interdisciplinar - Aplicacões Web
 
-`CURSO`
+CURSO: ENGENHARIA DE SOFTWARE
 
-`SEMESTRE`
+SEMESTRE: 2º SEMESTRE DE 2021
 
 ## Participantes
 
 Os membros do grupo são: 
-- Fulano da Silva
-- Ciclano Albuquerque
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
+- Aline Cristina Braz de Oliveira
+- Guilherme Felipe Costa Rodrigues
+- Gustavo Henrique dos Santos Riegert
+- Gustavo Henrique Cerceau Patricio
+- Yuri Lucas Silva Ferreira
 
 # Estrutura do Documento
 
