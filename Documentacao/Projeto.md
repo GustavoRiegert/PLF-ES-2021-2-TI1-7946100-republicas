@@ -26,4 +26,4 @@ Os membros do grupo são:
 6. [Implementação](6-Implementação.md)
 7. [Testes e Avaliação](7-Testes.md)
 8. [Referências](8-Referências.md)
-9. [Apresentação](9-Apresentação.md)
+9. [Apresentação](Apresentação.pdf)
