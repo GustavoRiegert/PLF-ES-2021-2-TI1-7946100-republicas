@@ -272,3 +272,6 @@
 
     
     
+.maiuscula-primeira-letra::first-letter {
+    text-transform: uppercase;
+}
