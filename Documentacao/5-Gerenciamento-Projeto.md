@@ -10,7 +10,7 @@ Divisão de papéis entre os membros do grupo:
 - `Scrum Master`: Aline Cristina Braz De Oliveira
 - `Equipe`:
     - Aline Cristina Braz De Oliveira
-    - Daniel De Alcântara Xavier
+    - Gustavo Henrique Cerceau Patricio
     - Gustavo Henrique Dos Santos Riegert
     - Guilherme Felipe Costa Rodrigues
     - Yuri Lucas Silva Ferreira
