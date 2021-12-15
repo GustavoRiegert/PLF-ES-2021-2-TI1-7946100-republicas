@@ -1,9 +1,9 @@
 const $checkFiltroQuartoMobiliado = $("#check-filtro-quarto-mobiliado");
 const $checkFiltroAreaPrivativa = $("#check-filtro-area-privativa");
-const $checkFiltroGaragem = $("#check-filtro-garagem" );
+const $checkFiltroGaragem = $("#check-filtro-garagem");
 const $checkFiltroContasBasicas = $("#check-filtro-contas-basicas");
-const $checkFiltroLimpeza = $("#check-filtro-limpeza" );
-const $checkFiltroWifi = $("#check-filtro-wifi" );
+const $checkFiltroLimpeza = $("#check-filtro-limpeza");
+const $checkFiltroWifi = $("#check-filtro-wifi");
 const $checkFiltroVisitas = $("#check-filtro-visitas");
 const $checkFiltroFumantes = $("#check-filtro-fumantes");
 const $checkFiltroPets = $("#check-filtro-pets");
@@ -27,7 +27,7 @@ function listarAnuncios(filtro) {
         anuncios = db.data.filter((anun) => {
             // Se o filtro estive ativado mostra o anuncio se a propriedade for verdadeira
             // Se o filtro estive desativado mostra o anuncio idenpendente do valor da propriedade
-            const mostrarAnuncio = 
+            const mostrarAnuncio =
                 (filtro.quartoMobiliado ? anun.comodidades.quartoMobiliado : true) &&
                 (filtro.areaPrivativa ? anun.comodidades.areaPrivativa : true) &&
                 (filtro.garagem ? anun.comodidades.garagem : true) &&
@@ -35,7 +35,7 @@ function listarAnuncios(filtro) {
                 (filtro.limpeza ? anun.comodidades.limpeza : true) &&
                 (filtro.wifi ? anun.comodidades.wifi : true) &&
                 (filtro.visitas ? anun.detalhes.permiteVisitas : true) &&
-                (filtro.fumantes ?anun.detalhes.aceitaFumantes : true) &&
+                (filtro.fumantes ? anun.detalhes.aceitaFumantes : true) &&
                 (filtro.pets ? anun.detalhes.aceitaPet : true) &&
                 (filtro.bebidasAlcoolicas ? anun.detalhes.aceitaBebidaAlcoolica : true) &&
                 (filtro.lgbtqia ? anun.detalhes.lgbtq : true) &&
@@ -48,7 +48,7 @@ function listarAnuncios(filtro) {
     } else {
         anuncios = db.data;
     }
-    
+
     $containerAnuncios.empty();
     if (anuncios.length != 0) {
         for (const anuncio of anuncios) {
@@ -236,9 +236,9 @@ function listarAnuncios(filtro) {
                 <p>
             </div>
         </div>`)
-    
+
             $containerAnuncios.append($cardAnuncio);
-        }    
+        }
     } else {
         $containerAnuncios.append(`<div>Sua pesquisa não retornou nenhum resultado</div>`);
     }
