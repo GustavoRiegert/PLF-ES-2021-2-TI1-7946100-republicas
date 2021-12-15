@@ -4,7 +4,7 @@ O diagrama apresentado na Figura 1 mostra o fluxo de interação do usuário pel
 O fluxo está disponivel no figma: [Figma Republicas](https://www.figma.com/file/K4AvSL27PMYGKh7U0iLh3e/Republicas?node-id=0%3A1)
 
 ## Figura 1 - Fluxo de interação do usuário pelas telas do sistema
-![republicas-user-flow.png](Documentacao/images/Republicas.png)
+![republicas-user-flow.png](images/Republicas.png)
 
 ## Figura 2 - Fluxo de interação do usuário implementado no Figma
 ![republicas-user-flow-figma-flow.png](./images/republicas-user-flow-figma-flow.png)
