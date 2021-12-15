@@ -7,4 +7,4 @@ O fluxo está disponivel no figma: [Figma Republicas](https://www.figma.com/file
 ![republicas-user-flow.png](images/Republicas.png)
 
 ## Figura 2 - Fluxo de interação do usuário implementado no Figma
-![republicas-user-flow-figma-flow.png](./images/republicas-user-flow-figma-flow.png)
+![republicas-user-flow-figma-flow.png](./images/fluxoatt.png)
