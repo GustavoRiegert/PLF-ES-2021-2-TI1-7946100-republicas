@@ -195,3 +195,16 @@ function answerRandomQuestion() {
 
 questionFormElem.addEventListener("submit", handleFormSubmit);
 renderLocalStorageQuestionsAndAnswers();
+
+//funções de redirecionamento
+function cadastrarAnuncio(){
+  window.location.href ="../cadastro-anuncio/index.html";
+}
+
+function listaAnuncios(){
+  window.location.href ="../cadastro-anuncio/anuncios.html";
+}
+
+function acessarSistema(){
+  window.location.href ="../cadastro-login-usuario/acessar.html";
+}

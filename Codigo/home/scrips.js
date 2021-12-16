@@ -285,3 +285,20 @@ $checkFiltroComercioProximo.change(() => filtrarAnuncios());
 
 // Ao iniciar listarAnuncios
 listarAnuncios(null);
+
+//funções de redirecionamento
+function cadastrarAnuncio(){
+    window.location.href ="../cadastro-anuncio/index.html";
+}
+
+function listaAnuncios(){
+    window.location.href ="../cadastro-anuncio/anuncios.html";
+}
+
+function abreForum(){
+    window.location.href ="../forum/index.html";
+}
+
+function acessarSistema(){
+    window.location.href ="../cadastro-login-usuario/acessar.html";
+}

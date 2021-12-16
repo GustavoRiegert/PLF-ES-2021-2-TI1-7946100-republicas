@@ -236,3 +236,20 @@ if (anuncios.find(anun => anun.id == anuncioID)) {
     console.log("Anuncio não encontrado", anuncioID, "Redirecionando para lista de anuncios")
     window.location.href = "/Codigo/home/Rep.html"
 }
+
+//funções de redirecionamento
+function cadastrarAnuncio(){
+    window.location.href ="../cadastro-anuncio/index.html";
+}
+
+function listaAnuncios(){
+    window.location.href ="../cadastro-anuncio/anuncios.html";
+}
+
+function abreForum(){
+    window.location.href ="../forum/index.html";
+}
+
+function acessarSistema(){
+    window.location.href ="../cadastro-login-usuario/acessar.html";
+}
