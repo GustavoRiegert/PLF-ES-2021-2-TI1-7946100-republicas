@@ -46,12 +46,12 @@
     <main class="container main">
         <section class="row fotos">
             <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                <div class="images-pri">
+                <div id="container-image-pri"  class="images-pri">
                     <img src="img/main-image.jpg" alt="#">
                 </div>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                <div class="images-sec">
+                <div id="container-images-sec" class="images-sec">
                     <img src="img/Odessa-apartment-Fateeva-Design-1.jpg" alt="#">
                     <img src="img/Odessa-apartment-Fateeva-Design-5-810x564.jpg" alt="#">
                     <img src="img/Odessa-apartment-Fateeva-Design-6-810x568.jpg" alt="#">
@@ -63,15 +63,18 @@
         <section class="row info" id="infos">
             <div class="col-12 col-sm-6 col-md-8 col-lg-8">
                 <div id="infoAnuncio" class="first-content">
-                    <h2>Título do Anúncio</h2>
-                    <p class="min-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eius assumenda
+                    <h2 id="titulo-anuncio">Título do Anúncio</h2>
+                    <p id="descricao-anuncio" class="min-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eius assumenda
                         veritatis ea voluptatum vel in nihil iure doloribus temporibus!</p>
-                    <b><i class="fa fa-users" aria-hidden="true"></i> 4 Hóspedes</b>
+                    <b>
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <span id="num-hospedes">4 Hóspedes</span>
+                    </b>
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-4">
-                <div id="valorAnuncio" class="second-content">
-                    <h2>R$ 0, 00</h2>
+                <div class="second-content">
+                    <h2 id="valor-anuncio">R$ 0, 00</h2>
                     <a href="#">Contatar Anunciante</a>
                 </div>
             </div>
@@ -79,16 +82,18 @@
 
         <section class="row commodities">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                <div id="rowComodidades" class="comodidades">
+                <div class="comodidades">
                     <h4>Comodidades Fornecidas</h4>
 
-                    <i class="fa fa-bath" aria-hidden="true"></i> 1 Banheiro
-                    <i class="fa fa-bed" aria-hidden="true"></i> 2 Quartos
-                    <i class="fas fa-couch"></i> 2 Salas
-                    <i class="fa fa-paw" aria-hidden="true"></i> Aceita PET
-                    <i class="fa fa-wifi" aria-hidden="true"></i> wi-fi
-                    <i class="fa fa-bus" aria-hidden="true"></i></i> Próximo
-                    <i class="fa fa-shopping-basket" aria-hidden="true"></i></i> Próximo
+                    <div id="container-comodidades">
+                        <i class="fa fa-bath" aria-hidden="true"></i> 1 Banheiro
+                        <i class="fa fa-bed" aria-hidden="true"></i> 2 Quartos
+                        <i class="fas fa-couch"></i> 2 Salas
+                        <i class="fa fa-paw" aria-hidden="true"></i> Aceita PET
+                        <i class="fa fa-wifi" aria-hidden="true"></i> wi-fi
+                        <i class="fa fa-bus" aria-hidden="true"></i></i> Próximo
+                        <i class="fa fa-shopping-basket" aria-hidden="true"></i></i> Próximo
+                    </div>
                 </div>
             </div>
         </section>
@@ -127,15 +132,15 @@
             <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                 <div id="universidade">
                 <h4>Universidade Próxima</h4>
-                    <p><b>7 KM de distância, PUC MINAS - Praça da liberdade</b></p>
+                    <p><b id="universidade-proxima">7 KM de distância, PUC MINAS - Praça da liberdade</b></p>
                 </div>
 
-                <div class="mapouter">
-                    <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
-                            src="https://maps.google.com/maps?q=Puc%20Minas,%20pra%C3%A7a%20da%20liberdade&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                <div id="mapa-faculdade" class="mapouter">
+                    <!-- <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=UNIBH+Cristiano+Machado&t=&z=13&ie=UTF8&iwloc=&output=embed"
                             frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br>
                         <a href="https://www.embedgooglemap.net">website google maps</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
