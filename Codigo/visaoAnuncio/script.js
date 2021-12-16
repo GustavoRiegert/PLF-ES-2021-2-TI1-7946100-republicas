@@ -18,7 +18,7 @@ console.debug("anuncios:", db.data)
     <i class="fa fa-bed" aria-hidden="true"></i> ${anuncio[0].quantidades.quartos} Quarto${anuncio[0].quantidades.quartos > 1 ? "s" : ""}
     <i class="fas fa-couch"></i> ${anuncio[0].quantidades.salas} Sala${anuncio[0].quantidades.quartos > 1 ? "s" : ""}
     
-    ${anuncio[0].comodidades.garagem ? `<i class="fa fa-car" aria-hidden="true"></i>Garagem` : ``}    
+    ${anuncio[0].comodidades.garagem ? `<i class="fa fa-car" aria-hidden="true"></i>Garagem` : ``}
     ${anuncio[0].comodidades.wifi ? `<i class="fa fa-wifi" aria-hidden="true"></i> Wi-Fi` : ``}
     ${anuncio[0].comodidades.quartoMobiliado ? `<i ><svg version="1.0" xmlns="http://www.w3.org/2000/svg"
     width="24px" height="24px" viewBox="0 0 699.000000 549.000000"
