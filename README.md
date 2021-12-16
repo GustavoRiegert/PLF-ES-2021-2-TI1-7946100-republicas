@@ -21,4 +21,4 @@ O objetivo do Projeto é disponibilizar uma aplicação web para estudantes em b
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
-Acesse o Repúblicas X no GitHub Pages: [Repúblicas X](https://icei-puc-minas-pples-ti.github.io/PLF-ES-2021-2-TI1-7946100-republicas/Codigo/cadastro-login-usuario/acessar.html)
+Acesse o Repúblicas X no GitHub Pages: [Repúblicas X](https://icei-puc-minas-pples-ti.github.io/PLF-ES-2021-2-TI1-7946100-republicas/)
