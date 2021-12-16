@@ -79,7 +79,9 @@
 
                 let $tr = $("<tr></tr>")
                 let $tdBtn = $(`<td scope="row"></td>`)
-                let $btnExcluir = $(`<button class="btn btn-danger btn-sm">Excluir</button>`)
+                let $btnAlterar = $(`<button class="btn btn-warning btn-sm">Alterar</button>`)
+                let $btnExcluir = $(`<p></p><button class="btn btn-danger btn-sm">Excluir</button>`)
+                $tdBtn.append($btnAlterar);
                 $tdBtn.append($btnExcluir);
                 $tr.append($tdBtn);
                 $tr.append(`<td>${anuncio.id}</td>`);

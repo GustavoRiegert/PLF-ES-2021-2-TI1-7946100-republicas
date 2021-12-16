@@ -41,7 +41,7 @@ var db_anuncios = {
                 "hospedes": 2
             },
             "contato": "(31)98877-6655",
-            "valor": 500
+            "valor": "R$ 1200,00"
         },
         {
             "id": 2,
@@ -82,7 +82,7 @@ var db_anuncios = {
                 "hospedes": 2
             },
             "contato": "(31)98877-6655",
-            "valor": 500
+            "valor": "R$ 500,00"
         }
     ]
 }
