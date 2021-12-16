@@ -224,4 +224,15 @@ function carregarAnuncio(id) {
     //$containerAnuncios.append($cardAnuncio);
 }
 
-carregarAnuncio(5);
+const pageUrl = new URL(window.location);
+const anuncioID = pageUrl.searchParams.get("id")
+
+console.log("anuncioID", anuncioID)
+
+if (anuncios.find(anun => anun.id == anuncioID)) {
+    console.log("Anuncio encontrado", anuncioID)
+    carregarAnuncio(anuncioID);
+} else {
+    console.log("Anuncio não encontrado", anuncioID, "Redirecionando para lista de anuncios")
+    window.location.href = "/Codigo/home/Rep.html"
+}
