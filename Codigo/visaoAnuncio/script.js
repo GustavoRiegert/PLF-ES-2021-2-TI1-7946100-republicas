@@ -1,26 +1,65 @@
 console.debug("anuncios:", db.data)
 
-{
+// const $containerImagePri = $("#container-image-pri");
+// const $containerImagesSec = $("#container-images-sec");
+// const $tituloAnuncio = $("#titulo-anuncio");
+// const $descricaoAnuncio = $("#descricao-anuncio");
+// const $numHospedes = $("#num-hospedes");
+// const $valorAnuncio = $("#valor-anuncio");
+// const $containerComodidades = $("#container-comodidades");
+// const $universidadeProxima = $("#universidade-proxima");
 
-    const $infosAnuncio = $(`<h2 class="text-capitalize">${anuncio[0].titulo}</h2>
+const anuncios = db.data;
+
+function carregarAnuncio(id) {
+    const anuncio = anuncios.find(anun => anun.id == id);
+
+    const $containerImagePri = $("#container-image-pri");
+    const $containerImagesSec = $("#container-images-sec");
+
+    const fotoPri = anuncio.fotos[0];
+    const fotosSec = anuncio.fotos.slice(1);
+
+    $containerImagePri.html(`<img src="${fotoPri}" alt="#">`)
+    $containerImagesSec.empty();
+    for (const fotosec of fotosSec) {
+        $containerImagesSec.append(`<img src="${fotosec}" alt="#">`)
+    }
+
+    const $infoAnuncio = $("#infoAnuncio");
+    $infoAnuncio.html(`<h2 class="text-capitalize">${anuncio.titulo}</h2>
     <p class="min-text">${anuncio.descricao}</p>
-    <b><i class="fa fa-users" aria-hidden="true"></i> ${anuncio[0].quantidades.hospedes} Hóspede${anuncio.quantidades.hospedes > 1 ? "s" : ""}</b>
+    <b><i class="fa fa-users" aria-hidden="true"></i> ${anuncio.quantidades.hospedes} Hóspede${anuncio.quantidades.hospedes > 1 ? "s" : ""}</b>
     `)
 
-    const $infoValor = $(`<h2>${anuncio[0].valor}</h2>`)
+    const $infoValor = $("#valor-anuncio");
+    $infoValor.text(anuncio.valor);
 
-    const $universidadeAnuncio = $(`<!--<h4>Universidade Próxima</h4>
-    <p><b>${anuncio[0].distanciaUniversidade} KM de distância, ${anuncio[0].universidadeProxima}</b></p>-->`)
 
-    const $detalhesAnuncio = $(`<h4>Comodidades Fornecidas e Detalhes do Imóvel</h4>
-    <p class="iconesanuncio">
-    <i class="fa fa-bath" aria-hidden="true"></i> ${anuncio[0].quantidades.banheiros} Banheiro${anuncio[0].quantidades.banheiros > 1 ? "s" : ""}
-    <i class="fa fa-bed" aria-hidden="true"></i> ${anuncio[0].quantidades.quartos} Quarto${anuncio[0].quantidades.quartos > 1 ? "s" : ""}
-    <i class="fas fa-couch"></i> ${anuncio[0].quantidades.salas} Sala${anuncio[0].quantidades.quartos > 1 ? "s" : ""}
+    const $universidadeAnuncio = $("#universidade-proxima");
+    $universidadeAnuncio.text(`${anuncio.distanciaUniversidade} KM de distância, ${anuncio.universidadeProxima}`);
+
+    // Mapa
+    const $mapaFaculdade = $("#mapa-faculdade");
+    const urlGoogleMaps = new URL("https://maps.google.com/maps?q=UNIBH+Cristiano+Machado&t=&z=13&ie=UTF8&iwloc=&output=embed");
+    urlGoogleMaps.searchParams.set("q", anuncio.universidadeProxima)
+    $mapaFaculdade.html(`
+        <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                src="${urlGoogleMaps.href}"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br>
+            <a href="https://www.embedgooglemap.net">website google maps</a>
+        </div>
+    `);
+
+    const $detalhesAnuncio = $("#container-comodidades")
+    $detalhesAnuncio.html(`
+    <i class="fa fa-bath" aria-hidden="true"></i> ${anuncio.quantidades.banheiros} Banheiro${anuncio.quantidades.banheiros > 1 ? "s" : ""}
+    <i class="fa fa-bed" aria-hidden="true"></i> ${anuncio.quantidades.quartos} Quarto${anuncio.quantidades.quartos > 1 ? "s" : ""}
+    <i class="fas fa-couch"></i> ${anuncio.quantidades.salas} Sala${anuncio.quantidades.quartos > 1 ? "s" : ""}
     
-    ${anuncio[0].comodidades.garagem ? `<i class="fa fa-car" aria-hidden="true"></i>Garagem` : ``}
-    ${anuncio[0].comodidades.wifi ? `<i class="fa fa-wifi" aria-hidden="true"></i> Wi-Fi` : ``}
-    ${anuncio[0].comodidades.quartoMobiliado ? `<i ><svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+    ${anuncio.comodidades.garagem ? `<i class="fa fa-car" aria-hidden="true"></i>Garagem` : ``}    
+    ${anuncio.comodidades.wifi ? `<i class="fa fa-wifi" aria-hidden="true"></i> Wi-Fi` : ``}
+    ${anuncio.comodidades.quartoMobiliado ? `<i ><svg version="1.0" xmlns="http://www.w3.org/2000/svg"
     width="24px" height="24px" viewBox="0 0 699.000000 549.000000"
     preserveAspectRatio="xMidYMid meet">
     <metadata>
@@ -47,7 +86,7 @@ console.debug("anuncios:", db.data)
     163 -6 363 l-3 362 -28 57 c-35 71 -110 140 -183 167 -82 31 -247 29 -326 -3z"/>
     </g>
     </svg></i> Quarto mobiliado` : ""}
-    ${anuncio[0].comodidades.areaPrivativa ? `<i >
+    ${anuncio.comodidades.areaPrivativa ? `<i >
     <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
     width="30px" height="30px" viewBox="0 0 700.000000 623.000000"
     preserveAspectRatio="xMidYMid meet">
@@ -76,8 +115,8 @@ console.debug("anuncios:", db.data)
     -169 391 -50 24 -148 30 -198 11z"/>
     </g>
     </svg></i>Área privativa` : ""}
-    ${anuncio[0].comodidades.contasBasicas ? `<i class="fa fa-money" aria-hidden="true"></i> Contas Básicas` : ""}
-    ${anuncio[0].comodidades.limpeza ? `<i >
+    ${anuncio.comodidades.contasBasicas ? `<i class="fa fa-money" aria-hidden="true"></i> Contas Básicas` : ""}
+    ${anuncio.comodidades.limpeza ? `<i >
     <svg width="30px" height="30px" version="1.1" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg">
     <g>
     <path d="m422.92 207.17 89.816-178.13c4.9922-9.8906 1.0156-21.922-8.8555-26.859-9.8906-5.0078-21.887-1.0547-26.84 8.8555l-89.723 178.02c6.582 1.4414 13.031 3.5312 19.039 6.5977 6.2109 3.1055 11.605 7.1523 16.562 11.516z"/>
@@ -88,8 +127,8 @@ console.debug("anuncios:", db.data)
     <path d="m571.85 541.52c0 10.207-8.2734 18.484-18.484 18.484-10.207 0-18.484-8.2773-18.484-18.484s8.2773-18.484 18.484-18.484c10.211 0 18.484 8.2773 18.484 18.484"/>
     </g>
     </svg></i> Limpeza` : ""}
-    ${anuncio[0].detalhes.aceitaPet ? `<i class="fa fa-paw" aria-hidden="true"></i> Pet` : ``}
-    ${anuncio[0].detalhes.permiteVisitas ? `<i >
+    ${anuncio.detalhes.aceitaPet ? `<i class="fa fa-paw" aria-hidden="true"></i> Pet` : ``}
+    ${anuncio.detalhes.permiteVisitas ? `<i >
     <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
     width="30px" height="30px" viewBox="0 0 682.000000 429.000000"
     preserveAspectRatio="xMidYMid meet">
@@ -143,7 +182,7 @@ console.debug("anuncios:", db.data)
     129 -163 150 -57 20 -154 19 -210 0z"/>
     </g>
     </svg></i> Visitas` : ""}
-    ${anuncio[0].detalhes.aceitaFumantes ? `<i >
+    ${anuncio.detalhes.aceitaFumantes ? `<i >
     <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
     width="24px" height="24px" viewBox="0 0 699.000000 492.000000"
     preserveAspectRatio="xMidYMid meet">
@@ -173,14 +212,16 @@ console.debug("anuncios:", db.data)
     -45 -68 -45 -72 0 -5 190 -7 423 -5 l422 3 56 28 c139 68 219 224 219 427 0
     203 -80 359 -219 427 l-56 28 -422 3 c-233 2 -423 -1 -423 -5z"/>
     </g></i>Fumantes` : ""}
-    ${anuncio[0].detalhes.aceitaBebidaAlcoolica ? `<i class="fa fa-beer" aria-hidden="true"></i> Bebidas alcóolicas` : ""}
-    ${anuncio[0].detalhes.lgbtq ? `<i class="fa fa-users" aria-hidden="true"></i> LGBTQIA+` : ""}
-    ${anuncio[0].detalhes.apenasHomens ? `<i class="fa fa-male" aria-hidden="true"></i> Apenas Homens` : ""}
-    ${anuncio[0].detalhes.apenasMulheres ? `<i class="fa fa-female" aria-hidden="true"></i> Apenas Mulheres` : ""}
-    ${anuncio[0].detalhes.transporteProximo ? `<i class="fa fa-bus" aria-hidden="true"></i> Tranporte próximo` : ""}
-    ${anuncio[0].detalhes.comercioProximo ? `<i class="fa fa-shopping-basket" aria-hidden="true"></i> Comécio próximo` : ""}
-<p>`)
+    ${anuncio.detalhes.aceitaBebidaAlcoolica ? `<i class="fa fa-beer" aria-hidden="true"></i> Bebidas alcóolicas` : ""}
+    ${anuncio.detalhes.lgbtq ? `<i class="fa fa-users" aria-hidden="true"></i> LGBTQIA+` : ""}
+    ${anuncio.detalhes.apenasHomens ? `<i class="fa fa-male" aria-hidden="true"></i> Apenas Homens` : ""}
+    ${anuncio.detalhes.apenasMulheres ? `<i class="fa fa-female" aria-hidden="true"></i> Apenas Mulheres` : ""}
+    ${anuncio.detalhes.transporteProximo ? `<i class="fa fa-bus" aria-hidden="true"></i> Tranporte próximo` : ""}
+    ${anuncio.detalhes.comercioProximo ? `<i class="fa fa-shopping-basket" aria-hidden="true"></i> Comécio próximo` : ""}
+    `)
 
 
     //$containerAnuncios.append($cardAnuncio);
 }
+
+carregarAnuncio(5);
