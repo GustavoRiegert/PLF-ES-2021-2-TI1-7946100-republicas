@@ -221,8 +221,8 @@ function carregarAnuncio(id) {
     `)
 
 
-    //$containerAnuncios.append($cardAnuncio);
 }
+
 
 const pageUrl = new URL(window.location);
 const anuncioID = pageUrl.searchParams.get("id")

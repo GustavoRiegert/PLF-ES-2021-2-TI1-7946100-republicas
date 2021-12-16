@@ -14,6 +14,10 @@ const $checkFiltroApenasMulheres = $("#check-filtro-apenas-mulheres");
 const $checkFiltroTransporteProximo = $("#check-filtro-transporte-proximo");
 const $checkFiltroComercioProximo = $("#check-filtro-comercio-proximo");
 
+function pegaId(id){
+    window.location.href ="../visaoAnuncio/?id=" + id;
+}
+
 function listarAnuncios(filtro) {
     const $containerAnuncios = $("#container-anuncios");
     console.debug("$containerAnuncios:", $containerAnuncios)
@@ -53,11 +57,12 @@ function listarAnuncios(filtro) {
     if (anuncios.length != 0) {
         for (const anuncio of anuncios) {
             const fotoBase64 = anuncio.fotos[0];
+
             // TODO: Trocar icones
             const $cardAnuncio = $(`<div class="rounded p-3 mt-3 mb-3 d-flex flex-column flex-lg-row anunciante">
             <img class="col-12 col-lg-4 rounded me-md-3 mb-3 mb-lg-0" src="${fotoBase64}">
             <div class="col-12 col-lg-8 detalhesdoanuncio">
-                <h1 class="text-capitalize">${anuncio.titulo}</h1>
+                <h2 class="text-capitalize" onclick="pegaId(${anuncio.id})">${anuncio.titulo}</h2>
                 <p class="maiuscula-primeira-letra">${anuncio.descricao}</p>
                 <div class="distancia">
                     <p><strong>${anuncio.valor}</strong></p>
