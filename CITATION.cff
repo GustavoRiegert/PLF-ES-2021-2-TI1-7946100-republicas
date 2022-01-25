@@ -1,0 +1,33 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: Repúblicas de Alunos
+authors:
+  - family-names: Braz De Oliveira
+    given-names: Aline Cristina 
+  - family-names: Costa Rodrigues 
+    given-names: Guilherme Felipe  
+  - family-names: Dos Santos Riegert 
+    given-names: Gustavo Henrique 
+  - family-names: Silva Ferreira
+    given-names: Yuri Lucas 
+  - family-names: Cerceau Patrício
+    given-names: Gustavo Henrique 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Assis Valentim
+    given-names: Nathalia   
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Vieira Carneiro
+    given-names: Rommel 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Alves Nogueira
+    given-names: Simone  
+keywords:
+  - Busca
+  - República Estudantil
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/PLF-ES-2021-2-TI1-7946100-republicas
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2021-12-22
